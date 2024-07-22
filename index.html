@@ -41,6 +41,46 @@
       <span class="loader"></span>
     </div>
     <!-- loader -->
+
+    <!-- head infromation -->
+    <div dir="ltr" class="headInfo position-fixed top-0 w-100 text-white">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex justify-content-around">
+            <p class="m-0 py-2 px-4 border border-0 border-end boderColor">
+              <i class="fa-solid fa-phone pe-2" style="color: #f17f0f"></i>
+              +201158844665
+            </p>
+            <p class="m-0 py-2 px-4 border border-0 border-end boderColor">
+              <i class="fa-solid fa-envelope pe-2" style="color: #f17f0f"></i>
+              <a class="text-white" href="mailto: CEOeng84@gmail.com">
+                CEOeng84@gmail.com</a
+              >
+            </p>
+            <p class="m-0 py-2 px-4">
+              <i class="fa-regular fa-clock" style="color: #f17f0f"></i> Open
+              Hours 09:00 AM - 06:30 PM
+            </p>
+          </div>
+          <div class="d-flex">
+            <a class="py-2 pe-3 text-white" href="#"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a class="py-2 pe-3 text-white" href="#"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a class="py-2 pe-3 text-white" href="#"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a class="py-2 pe-3 text-white" href="#"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- head infromation -->
+
     <!-- start of navbar -->
     <nav class="navbar navbar-expand-lg w-100 position-fixed">
       <div class="container">
@@ -188,13 +228,16 @@
       class="d-flex align-items-center py-5 overflow-hidden"
       id="aboutUs">
       <div class="container">
-        <div class="row g-4">
+        <div class="row g-5">
           <div class="col-lg-6">
-            <div>
-              <img
-                class="w-100 rounded-2 wow animate__animated animate__fadeInDown"
-                src="assets/backgrounds/modern-office-space-with-desktops-with-modern-computers-created-with-generative-ai-technology (1).jpg"
-                alt="About Us " />
+            <div
+              class="layerBehind position-relative z-1 wow animate__animated animate__fadeInDown">
+              <div class="overflow-hidden rounded-2">
+                <img
+                  class="w-100 rounded-2 weImg"
+                  src="assets/backgrounds/office.jpg"
+                  alt="About Us " />
+              </div>
             </div>
           </div>
           <div class="col-lg-6 wow animate__animated animate__fadeInUp">
@@ -219,7 +262,7 @@
             </div>
             <div class="slideup3">
               <a data-i18n="knowMore" class="text-uppercase fw-bold" href="">
-                Know More</a
+                Read More</a
               >
             </div>
           </div>
@@ -243,9 +286,30 @@
         </h2>
         <div dir="ltr" class="slider">
           <div class="owl-carousel">
-            <div class="slider-card">
-              <div class="d-flex justify-content-center align-items-center">
+            <div class="slider-card shadow">
+              <div
+                class="srv-img-container overflow-hidden position-relative rounded-1">
                 <img src="assets/services/arch.jpg" alt="service" />
+                <div
+                  class="servicesLayerHov position-absolute w-100 h-100 p-3 text-start">
+                  <p
+                    data-i18n="service1Desc"
+                    class="text-white ellipsis-multiline">
+                    The architecture industry has become increasingly demanding,
+                    with clients seeking unique and innovative designs while
+                    adhering to tight budgets and schedules. In today's
+                    competitive landscape, clients are unwilling to compromise
+                    on their requirements, including the demand for green and
+                    sustainable structures. At CEO, we enthusiastically embrace
+                    these challenges.
+                  </p>
+                  <a
+                    data-i18n="knowMore"
+                    class="text-uppercase fw-bold mainColor"
+                    href="">
+                    Read More</a
+                  >
+                </div>
               </div>
               <h5 class="mb-0 text-center p-3 h4">
                 <b data-i18n="service1"
@@ -253,25 +317,85 @@
                 >
               </h5>
             </div>
-            <div class="slider-card">
-              <div class="d-flex justify-content-center align-items-center">
+            <div class="slider-card shadow">
+              <div
+                class="srv-img-container overflow-hidden position-relative rounded-1">
                 <img src="assets/services/contracts.jpg" alt="service" />
+                <div
+                  class="servicesLayerHov position-absolute w-100 h-100 p-3 text-start">
+                  <p
+                    data-i18n="service2Desc"
+                    class="text-white ellipsis-multiline">
+                    CEO consultancy team provides the public and private sector
+                    with a comprehensive project consultation for pre-and-post
+                    contract administration, claims management, commercial and
+                    contractual support with a focus on minimizing client risks
+                    and enhancing value.
+                  </p>
+                  <a
+                    data-i18n="knowMore"
+                    class="text-uppercase fw-bold mainColor"
+                    href="">
+                    Read More</a
+                  >
+                </div>
               </div>
               <h5 class="mb-0 text-center p-3 h4">
                 <b data-i18n="service2">Contracts and Cost Consultancy</b>
               </h5>
             </div>
-            <div class="slider-card">
-              <div class="d-flex justify-content-center align-items-center">
+            <div class="slider-card shadow">
+              <div
+                class="srv-img-container overflow-hidden position-relative rounded-1">
                 <img src="assets/services/construction.jpg" alt="service" />
+                <div
+                  class="servicesLayerHov position-absolute w-100 h-100 p-3 text-start">
+                  <p
+                    data-i18n="service3Desc"
+                    class="text-white ellipsis-multiline">
+                    CEO is a leading provider of Project & Construction
+                    Management services to civil engineering infrastructure and
+                    transport schemes. Our consulting engineers manage all
+                    project and construction activities including planning,
+                    co-ordination, control, and supervision. From inception to
+                    completion. We are committed to fulfilling clients’ needs,
+                    delivering functional and cost-effective results.
+                  </p>
+                  <a
+                    data-i18n="knowMore"
+                    class="text-uppercase fw-bold mainColor"
+                    href="">
+                    Read More</a
+                  >
+                </div>
               </div>
               <h5 class="mb-0 text-center p-3 h4">
                 <b data-i18n="service3">Project and Construction Management</b>
               </h5>
             </div>
-            <div class="slider-card">
-              <div class="d-flex justify-content-center align-items-center">
+            <div class="slider-card shadow">
+              <div
+                class="srv-img-container overflow-hidden position-relative rounded-1">
                 <img src="assets/services/mbt.jpg" alt="service" />
+                <div
+                  class="servicesLayerHov position-absolute w-100 h-100 p-3 text-start">
+                  <p
+                    data-i18n="service4Desc"
+                    class="text-white ellipsis-multiline">
+                    Our CEO's office is the driving force behind the meticulous
+                    design and execution of groundbreaking projects in the field
+                    of solid waste management. With a team of dedicated experts
+                    and a passion for innovation, we specialize in crafting
+                    custom solutions for Waste Transfer Stations, Landfill
+                    Design, and Mechanical and Biological Treatment (MBT) plants
+                  </p>
+                  <a
+                    data-i18n="knowMore"
+                    class="text-uppercase fw-bold mainColor"
+                    href="">
+                    Read More</a
+                  >
+                </div>
               </div>
               <h5 class="mb-0 text-center p-3 h4">
                 <b data-i18n="service4"
@@ -279,17 +403,63 @@
                 </b>
               </h5>
             </div>
-            <div class="slider-card">
-              <div class="d-flex justify-content-center align-items-center">
-                <img src="assets/services/highway.jpg" alt="service" />
+            <div class="slider-card shadow">
+              <div
+                class="srv-img-container overflow-hidden position-relative rounded-1">
+                <img src="assets/services/highway.webp" alt="service" />
+                <div
+                  class="servicesLayerHov position-absolute w-100 h-100 p-3 text-start">
+                  <p
+                    data-i18n="service5Desc"
+                    class="text-white ellipsis-multiline">
+                    With the growing need for highways and bridges, the CEO's
+                    office stands prepared to assist our clients through its
+                    extensive expertise in civil, structural, and transportation
+                    engineering. Our services are individually tailored to each
+                    project, aiding our clients in the delivery of design
+                    drawings, precise cost estimations, and material
+                    assessments.
+                  </p>
+                  <a
+                    data-i18n="knowMore"
+                    class="text-uppercase fw-bold mainColor"
+                    href="">
+                    Read More</a
+                  >
+                </div>
               </div>
               <h5 class="mb-0 text-center p-3 h4">
-                <b data-i18n="service5">Highways and Bridges</b>
+                <b data-i18n="service5"
+                  >Highways and Bridges structures structures</b
+                >
               </h5>
             </div>
-            <div class="slider-card">
-              <div class="d-flex justify-content-center align-items-center">
+            <div class="slider-card shadow">
+              <div
+                class="srv-img-container overflow-hidden position-relative rounded-1">
                 <img src="assets/services/landscape.jpg" alt="service" />
+                <div
+                  class="servicesLayerHov position-absolute w-100 h-100 p-3 text-start">
+                  <p
+                    data-i18n="service6Desc"
+                    class="text-white ellipsis-multiline">
+                    In the realm of Landscaping and Public Realm, we firmly hold
+                    the belief that these components demand meticulous design
+                    consideration. We approach these aspects with a holistic
+                    perspective, striving to influence the development of spaces
+                    that seamlessly harmonize with their urban surroundings. Our
+                    approach considers various facets, including visual
+                    aesthetics, cultural significance, heritage preservation,
+                    and the enduring aspirations of the communities they cater
+                    to.
+                  </p>
+                  <a
+                    data-i18n="knowMore"
+                    class="text-uppercase fw-bold mainColor"
+                    href="">
+                    Read More</a
+                  >
+                </div>
               </div>
               <h5 class="mb-0 text-center p-3 h4">
                 <b data-i18n="service6">Landscaping and Public Realm</b>
@@ -322,9 +492,17 @@
     </section>
     <!-- end of ourClients -->
 
-    <section id="achivement"></section>
+    <!-- <section id="achivements" class="min-vh-100 py-5">
+      <h2 class="text-center fw-bold text-uppercase mb-5">
+        <span
+          class="position-relative achivements-en fs-2"
+          data-i18n="projectSections"
+          >Project Section</span
+        >
+      </h2>
+    </section> -->
     <section id="vision"></section>
-
+    <!-- start of footer -->
     <footer class="d-flex align-items-center py-3">
       <div class="container">
         <div class="row">
@@ -434,9 +612,9 @@
         </div>
       </div>
     </footer>
+    <!-- end of footer -->
 
     <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/all.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/wow.min.js"></script>

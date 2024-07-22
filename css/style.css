@@ -7,13 +7,16 @@
   font-family: "Cairo", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
-
-html {
-  scroll-behavior: smooth;
+.mainColor {
+  color: var(--mianColor);
 }
+
+html,
 body {
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
 ::selection {
   color: #ffff;
   background: var(--mianColor);
@@ -21,6 +24,16 @@ body {
 a {
   text-decoration: none;
 }
+/*text overflow*/
+.ellipsis-multiline {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+/*text overflow*/
 
 /*fonts*/
 .en-font {
@@ -103,11 +116,28 @@ a {
 /****|setting box|****/
 /****|setting box|****/
 
+.headInfo {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.boderColor {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
 /****|start of navbar|****/
 .navbar {
   background-color: transparent !important;
   transition: 0.8s;
   z-index: 100;
+  top: 40px;
+}
+@media (max-width: 992px) {
+  .headInfo {
+    display: none;
+  }
+  .navbar {
+    top: 0;
+  }
 }
 
 .nav-scrolled {
@@ -228,7 +258,7 @@ select option {
 @media (max-width: 575.98px) {
   .mian-btn,
   .second-btn {
-    width: 140px;
+    width: 145px;
   }
 }
 /****|end of Main|****/
@@ -239,16 +269,36 @@ select option {
   background-image: url("../assets/backgrounds/4877010.jpg");
   background-size: cover;
 }
+.layerBehind::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -15px;
+  left: -15px;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--mianColor);
+}
+.layerBehind div .weImg {
+  transition: 0.5s;
+}
+.layerBehind div:hover .weImg {
+  transform: scale(1.2);
+}
 /****|end of about us|****/
 
 /****|start of ourClients section|****/
 #ourClients {
   min-height: 30vh;
 }
+/*back text*/
 .our-clients-en::before,
 .our-clients-ar::before,
 .our-services-en::before,
-.our-services-ar::before {
+.our-services-ar::before,
+.achivements-en:before,
+.achivements-ar:before {
   position: absolute;
   bottom: 2px;
   left: 50%;
@@ -331,16 +381,21 @@ select option {
   font-size: 60px;
 }
 
-body {
-  font-family: "Noto Sans HK", sans-serif;
-  background: #fff;
+.servicesLayerHov {
+  background-color: #000000c9;
+  top: -135%;
+  transition: 0.5s;
+}
+
+.srv-img-container:hover .servicesLayerHov {
+  top: 0;
 }
 .slider {
   margin-bottom: 30px;
   position: relative;
 }
 .slider .owl-item.active.center .slider-card {
-  transform: scale(1.15);
+  transform: scale(1);
   opacity: 1;
   background: #f17f0f;
   background: -webkit-linear-gradient(to bottom, #ff5e62, #f17f0f);
@@ -352,7 +407,6 @@ body {
   padding: 0px 0px;
   margin: 50px 15px 90px 15px;
   border-radius: 5px;
-  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
   transform: scale(0.9);
   opacity: 0.5;
   transition: all 0.3s;
@@ -398,6 +452,22 @@ body {
 
 /****|end of services section|****/
 
+/****|start of achevements section|****/
+#achivements {
+  background-color: #f2f2f2;
+}
+
+.achivements-en::before {
+  content: "Project Sections";
+}
+.achivements-ar::before {
+  content: "اقسام المشروعات";
+  font-size: 45px;
+  bottom: 10px;
+}
+
+/****|start of achevements section|****/
+
 /****|start of loader|****/
 .loaderBackground {
   display: flex;
@@ -424,6 +494,13 @@ body {
   }
 }
 /****|end of loader|****/
+
+/**************************************conatct us page***************************************/
+#contactHead {
+  min-height: 60vh;
+  background-color: #905050;
+}
+/**************************************conatct us page***************************************/
 
 /****|start of footer|****/
 footer {
@@ -471,6 +548,6 @@ footer .socialIcons svg:hover {
 .animate__animated.animate__fadeInLeftBig,
 .animate__animated.animate__fadeInDown,
 .animate__animated.animate__fadeInUp {
-  --animate-duration: 2s;
+  --animate-duration: 1s;
 }
 /****|Animation|****/

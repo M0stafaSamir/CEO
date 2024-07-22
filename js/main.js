@@ -5,6 +5,11 @@ const navbarHeight = $(".navbar").outerHeight(true);
 const changeingPoint = $("#home h1").offset().top;
 $(window).on("scroll", function () {
   let windowScroll = $(window).scrollTop();
+  if (windowScroll > 70) {
+    $(".navbar").addClass("top-0");
+  } else {
+    $(".navbar").removeClass("top-0");
+  }
 
   if (windowScroll > changeingPoint - navbarHeight) {
     $(".navbar").addClass("nav-scrolled");
@@ -26,11 +31,11 @@ $(function () {
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 5,
     nav: true,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
+    // autoplay: true,
+    // autoplayTimeout: 3000,
+    // autoplayHoverPause: true,
     center: true,
     navText: [
       "<i class='fa fa-angle-left'></i>",
