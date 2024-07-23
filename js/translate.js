@@ -3,7 +3,6 @@ const translations = {
     home: "Home",
     services: "Services",
     projects: "Projects",
-    vision: "Our vision",
     aboutus: "About us",
     contactus: "Contact us",
     projectOne: "Project One",
@@ -60,7 +59,25 @@ const translations = {
     service11: "Utilities and Infrastructures",
     service12: "The Urban and Master Planning",
 
+    //states
+    years: "Years of",
+    experience: "Experience",
+    completed: "completed",
+    pro: "projects",
+    ongoing: "ongoing",
+    clients: "clients",
+    trustUs: "trustUs",
+
     projectSections: "Project Sections",
+
+    vision: "our vision",
+    visionContent: `Our vision is to furnish our clients with solutions and services
+                that prioritize safety, sustainability, and innovation while
+                adhering to both local and international standards.`,
+    mission: "our mission",
+    missionContent: `To strive to create a professional and creative environment for
+                our staff to be able to apply their knowledge and expertise in a
+                nurturing atmosphere.`,
 
     copyRights: ` Copyright &copy; 2024 Consultant Engineering Office, All rights
                 reserved.`,
@@ -69,7 +86,6 @@ const translations = {
     home: "الرئيسية",
     services: "خدماتنا  ",
     projects: "المشروعات",
-    vision: "رؤيتنا",
     aboutus: "معلومات عنا",
     contactus: "اتصل بنا",
     projectOne: "المشروع لاول",
@@ -118,7 +134,21 @@ const translations = {
     service11: "المرافق والبنية التحتية",
     service12: "التخطيط الحضري والتخطيط الشامل",
 
+    //states
+    years: "عدد سنين",
+    experience: "الخبره",
+    completed: "اكتملت",
+    pro: "مشروعات",
+    ongoing: "قيد التنفيذ",
+    clients: "عملاء ",
+    trustUs: "يثقون بنا",
+
     projectSections: "اقسام المشروعات",
+
+    vision: "رؤيتنا",
+    visionContent: `رؤيتنا هي تزويد عملائنا بالحلول والخدمات التي تعطي الأولوية للسلامة والاستدامة والابتكار مع الالتزام بالمعايير المحلية والدولية.`,
+    mission: "مهمتنا",
+    missionContent: `مهمتنا هي أن نسعى جاهدين لإنشاء بيئة مهنية وإبداعية لموظفينا ليكونوا قادرين على تطبيق معرفتهم وخبرتهم في جو داعم.`,
 
     copyRights: `  مكتب  الإستشارات الهندسيه جميع الحقوق محفوظه  &copy; 2024`,
   },
