@@ -110,22 +110,80 @@
                 >Home</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <a
-                class="nav-link underLine text-white fw-medium"
-                href="#services"
-                data-i18n="services"
-                >Services</a
-              >
+                class="nav-link dropdown-toggle text-white fw-medium"
+                href="#projects"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-i18n="services">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" data-i18n="service1" href="#"
+                    >Architecture & Building Engineering</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" data-i18n="service3" href="#"
+                    >Project & Construction Management</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" data-i18n="service2" href="#"
+                    >Contracts & Cost Consultancy</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" data-i18n="service4" href="#"
+                    >Design the Mechanical & Biological Treatment(MBT)</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" data-i18n="service7" href="#"
+                    >Solid Waste Characterization Studies</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" data-i18n="service8" href="#"
+                    >Water ways waste characterization</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" data-i18n="service9" href="#"
+                    >Solid Waste Transfer Station</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" data-i18n="service10" href="#"
+                    >Sanitary Landfills for Municipal Waste</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" data-i18n="service5" href="#"
+                    >Highways and Bridges
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" data-i18n="service11" href="#"
+                    >Utilities and Infrastructures</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" data-i18n="service6" href="#"
+                    >Landscaping and Public Realm
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" data-i18n="service12" href="#"
+                    >The Urban and Master Planning
+                  </a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link underLine text-white fw-medium"
-                href="#achivements"
-                data-i18n="achivements"
-                >Achievements</a
-              >
-            </li>
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle text-white fw-medium"
@@ -192,7 +250,7 @@
 
     <!-- start of home -->
     <main id="home" class="d-flex align-items-center text-center">
-      <div class="container Zoominout">
+      <div class="container">
         <h1 data-i18n="homeH1" class="text-white">
           Consultant Engineering Office
         </h1>
@@ -208,7 +266,7 @@
         <div id="homeBtns">
           <a
             data-i18n="homeBtnService"
-            href="#"
+            href="#services"
             class="btn mian-btn rounded-0 text-uppercase me-3">
             Exploar services
           </a>
@@ -231,10 +289,10 @@
         <div class="row g-5">
           <div class="col-lg-6">
             <div
-              class="layerBehind position-relative z-1 wow animate__animated animate__fadeInDown">
-              <div class="overflow-hidden rounded-2">
+              class="layerBehind position-relative z-1 wow animate__animated animate__fadeInLeft">
+              <div class="overflow-hidden">
                 <img
-                  class="w-100 rounded-2 weImg"
+                  class="w-100 weImg"
                   src="assets/backgrounds/office.jpg"
                   alt="About Us " />
               </div>
@@ -492,16 +550,249 @@
     </section>
     <!-- end of ourClients -->
 
-    <!-- <section id="achivements" class="min-vh-100 py-5">
-      <h2 class="text-center fw-bold text-uppercase mb-5">
-        <span
-          class="position-relative achivements-en fs-2"
-          data-i18n="projectSections"
-          >Project Section</span
-        >
-      </h2>
-    </section> -->
-    <section id="vision"></section>
+    <!-- strat project Sections -->
+    <section id="projects" class="min-vh-100 py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold text-uppercase mb-5">
+          <span
+            class="position-relative projects-en fs-2"
+            data-i18n="projectSections"
+            >Project Section</span
+          >
+        </h2>
+        <div class="row g-4">
+          <div class="col-md-4 col-lg-3">
+            <div class="projectField position-relative shadow">
+              <span class="linewidth"></span>
+              <div class="text-center text-capitalize p-3">
+                <p class="mainColor fw-medium">field of</p>
+                <h5 class="fw-bold" data-i18n="service1">
+                  Architecture and Building Engineering
+                </h5>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center bg-secondary-subtle">
+                <p class="m-0 mainBg py-1 px-3 text-white fs-3">01</p>
+                <p class="m-0 py-1 px-3"><a href="#">See Projects</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="projectField position-relative shadow">
+              <span class="linewidth"></span>
+              <div class="text-center text-capitalize p-3">
+                <p class="mainColor fw-medium">field of</p>
+                <h5 class="fw-bold" data-i18n="service2">
+                  Architecture and Building Engineering
+                </h5>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center bg-secondary-subtle">
+                <p class="m-0 mainBg py-1 px-3 text-white fs-3">02</p>
+                <p class="m-0 py-1 px-3"><a href="#">See Projects</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="projectField position-relative shadow">
+              <span class="linewidth"></span>
+              <div class="text-center text-capitalize p-3">
+                <p class="mainColor fw-medium">field of</p>
+                <h5 class="fw-bold" data-i18n="service3">
+                  Architecture and Building Engineering
+                </h5>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center bg-secondary-subtle">
+                <p class="m-0 mainBg py-1 px-3 text-white fs-3">03</p>
+                <p class="m-0 py-1 px-3"><a href="#">See Projects</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="projectField position-relative shadow">
+              <span class="linewidth"></span>
+              <div class="text-center text-capitalize p-3">
+                <p class="mainColor fw-medium">field of</p>
+                <h5 class="fw-bold" data-i18n="service4">
+                  Architecture and Building Engineering
+                </h5>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center bg-secondary-subtle">
+                <p class="m-0 mainBg py-1 px-3 text-white fs-3">04</p>
+                <p class="m-0 py-1 px-3"><a href="#">See Projects</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="projectField position-relative shadow">
+              <span class="linewidth"></span>
+              <div class="text-center text-capitalize p-3">
+                <p class="mainColor fw-medium">field of</p>
+                <h5 class="fw-bold" data-i18n="service5">
+                  Architecture and Building Engineering
+                </h5>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center bg-secondary-subtle">
+                <p class="m-0 mainBg py-1 px-3 text-white fs-3">05</p>
+                <p class="m-0 py-1 px-3"><a href="#">See Projects</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="projectField position-relative shadow">
+              <span class="linewidth"></span>
+              <div class="text-center text-capitalize p-3">
+                <p class="mainColor fw-medium">field of</p>
+                <h5 class="fw-bold" data-i18n="service6">
+                  Architecture and Building Engineering
+                </h5>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center bg-secondary-subtle">
+                <p class="m-0 mainBg py-1 px-3 text-white fs-3">06</p>
+                <p class="m-0 py-1 px-3"><a href="#">See Projects</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="projectField position-relative shadow">
+              <span class="linewidth"></span>
+              <div class="text-center text-capitalize p-3">
+                <p class="mainColor fw-medium">field of</p>
+                <h5 class="fw-bold" data-i18n="service7">
+                  Architecture and Building Engineering
+                </h5>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center bg-secondary-subtle">
+                <p class="m-0 mainBg py-1 px-3 text-white fs-3">07</p>
+                <p class="m-0 py-1 px-3"><a href="#">See Projects</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="projectField position-relative shadow">
+              <span class="linewidth"></span>
+              <div class="text-center text-capitalize p-3">
+                <p class="mainColor fw-medium">field of</p>
+                <h5 class="fw-bold" data-i18n="service8">
+                  Architecture and Building Engineering
+                </h5>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center bg-secondary-subtle">
+                <p class="m-0 mainBg py-1 px-3 text-white fs-3">08</p>
+                <p class="m-0 py-1 px-3"><a href="#">See Projects</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end project Sections -->
+
+    <!-- start of states -->
+    <section class="d-flex text-center align-items-center py-4" id="states">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-3">
+            <div class="stat d-lg-flex px-lg-3 text-lg-start">
+              <p class="m-0 fs-1 fw-bold text-white">
+                <span class="squareBefore position-relative" data-goal="15"
+                  >0</span
+                >
+              </p>
+              <div
+                class="text-white fw-medium fs-5 text-capitalize d-flex justify-content-center d-sm-flex d-lg-block">
+                <p class="m-0">Years of</p>
+                <p class="m-0">Experience</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="stat d-lg-flex px-lg-3 text-lg-start">
+              <p class="m-0 fs-1 fw-bold text-white position-relative">
+                <span class="squareBefore position-relative" data-goal="77"
+                  >0</span
+                >
+              </p>
+              <div
+                class="text-white fw-medium fs-5 text-capitalize d-flex justify-content-center d-sm-flex d-lg-block">
+                <p class="m-0">completed</p>
+                <p class="m-0">projects</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div
+              class="stat d-lg-flex px-lg-3 text-lg-start align-items-center">
+              <p class="m-0 fs-1 fw-bold text-white position-relative">
+                <span class="squareBefore position-relative" data-goal="19"
+                  >0</span
+                >
+              </p>
+              <div
+                class="text-white fw-medium fs-5 text-capitalize d-flex justify-content-center d-sm-flex d-lg-block">
+                <p class="m-0">ongoing</p>
+                <p class="m-0">pojects</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div
+              class="stat d-lg-flex px-lg-3 text-lg-start align-items-center">
+              <p class="m-0 fs-1 fw-bold text-white position-relative">
+                <span class="squareBefore position-relative" data-goal="17"
+                  >0</span
+                >
+              </p>
+              <div
+                class="text-white fw-medium fs-5 text-capitalize d-flex justify-content-center d-sm-flex d-lg-block">
+                <p class="m-0">clients</p>
+                <p class="m-0">trust us</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of states -->
+
+    <!-- start of our vision&mission -->
+    <section id="vision-mission" class="py-5 d-flex align-items-center">
+      <div class="container">
+        <div class="row g-5">
+          <div
+            class="col-md-12 col-lg-6 wow animate__animated animate__fadeInLeft">
+            <div class="layerBehind position-relative z-1">
+              <img class="w-100" src="assets/vision.webp" alt="our vision" />
+            </div>
+          </div>
+          <div
+            class="col-md-12 col-lg-6 wow animate__animated animate__fadeInRight">
+            <div>
+              <h2 class="fw-bold text-capitalize mb-4">our vission</h2>
+              <p class="fs-5 lh-lg">
+                Our vision is to furnish our clients with solutions and services
+                that prioritize safety, sustainability, and innovation while
+                adhering to both local and international standards.
+              </p>
+              <h2 class="fw-bold text-capitalize mb-4">our mission</h2>
+              <p class="fs-5 lh-lg">
+                To strive to create a professional and creative environment for
+                our staff to be able to apply their knowledge and expertise in a
+                nurturing atmosphere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of our vision&mission -->
+
     <!-- start of footer -->
     <footer class="d-flex align-items-center py-3">
       <div class="container">
@@ -533,14 +824,7 @@
                     >Services</a
                   >
                 </li>
-                <li>
-                  <a
-                    class="text-capitalize w-100 d-block"
-                    data-i18n="achivements"
-                    href=""
-                    >achivements</a
-                  >
-                </li>
+
                 <li>
                   <a
                     class="text-capitalize w-100 d-block"

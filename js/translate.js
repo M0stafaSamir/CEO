@@ -2,7 +2,6 @@ const translations = {
   en: {
     home: "Home",
     services: "Services",
-    achivements: "achivements",
     projects: "Projects",
     vision: "Our vision",
     aboutus: "About us",
@@ -54,6 +53,13 @@ const translations = {
     service6: "Landscaping and Public Realm",
     service6Desc: `In the realm of Landscaping and Public Realm, we firmly hold the belief that these components demand meticulous design consideration. We approach these aspects with a holistic perspective, striving to influence the development of spaces that seamlessly harmonize with their urban surroundings. Our approach considers various facets, including visual aesthetics, cultural significance, heritage preservation, and the enduring aspirations of the communities they cater to.`,
 
+    service7: "Solid Waste Characterization Studies",
+    service8: "Water ways waste characterization",
+    service9: "Solid Waste Transfer Station",
+    service10: "Sanitary Landfills for Municipal Waste",
+    service11: "Utilities and Infrastructures",
+    service12: "The Urban and Master Planning",
+
     projectSections: "Project Sections",
 
     copyRights: ` Copyright &copy; 2024 Consultant Engineering Office, All rights
@@ -62,7 +68,6 @@ const translations = {
   ar: {
     home: "الرئيسية",
     services: "خدماتنا  ",
-    achivements: "الإنجازات",
     projects: "المشروعات",
     vision: "رؤيتنا",
     aboutus: "معلومات عنا",
@@ -106,6 +111,13 @@ const translations = {
     service6: "تنسيق الحدائق والمجال العام",
     service6Desc: `في مجال تصميم المناظر الطبيعية والمجال العام، نؤمن إيمانًا راسخًا بأن هذه المكونات تتطلب مراعاة تصميمية دقيقة. ونحن نتعامل مع هذه الجوانب بمنظور شامل، ونسعى جاهدين للتأثير على تطوير المساحات التي تنسجم بسلاسة مع محيطها الحضري. ويأخذ نهجنا في الاعتبار جوانب مختلفة، بما في ذلك الجماليات البصرية، والأهمية الثقافية، والحفاظ على التراث، والتطلعات الدائمة للمجتمعات التي نخدمها.`,
 
+    service7: "دراسات توصيف النفايات الصلبة",
+    service8: "توصيف نفايات المجاري المائية",
+    service9: "محطة نقل النفايات الصلبة",
+    service10: "مكبات صحية للنفايات البلدية",
+    service11: "المرافق والبنية التحتية",
+    service12: "التخطيط الحضري والتخطيط الشامل",
+
     projectSections: "اقسام المشروعات",
 
     copyRights: `  مكتب  الإستشارات الهندسيه جميع الحقوق محفوظه  &copy; 2024`,
@@ -142,9 +154,9 @@ const setLanguage = (language) => {
     document
       .querySelector("#services h2 span")
       .classList.replace("our-services-en", "our-services-ar");
-    // document
-    //   .querySelector("#achivements h2 span")
-    //   .classList.replace("achivements-en", "achivements-ar");
+    document
+      .querySelector("#projects h2 span")
+      .classList.replace("projects-en", "projects-ar");
   } else {
     document.dir = "ltr";
     navbarLinks.classList.replace("me-auto", "ms-auto");
@@ -155,8 +167,8 @@ const setLanguage = (language) => {
     document
       .querySelector("#services h2 span")
       .classList.replace("our-services-ar", "our-services-en");
-    // document
-    //   .querySelector("#achivements h2 span")
-    //   .classList.replace("achivements-ar", "achivements-en");
+    document
+      .querySelector("#projects h2 span")
+      .classList.replace("projects-ar", "projects-en");
   }
 };

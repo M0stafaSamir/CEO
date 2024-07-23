@@ -19,7 +19,7 @@ $(window).on("scroll", function () {
 });
 
 //loading
-$(function () {
+document.addEventListener("DOMContentLoaded", () => {
   $(".loader").fadeOut(500, function () {
     $(".loaderBackground").fadeOut(500, function () {
       $(".loaderBackground").remove();
@@ -54,3 +54,27 @@ $(document).ready(function () {
     },
   });
 });
+
+let started = false;
+const statsSection = document.getElementById("states");
+let nums = document.querySelectorAll(".squareBefore");
+
+$(window).on("scroll", function () {
+  let windowScroll = window.scrollY;
+  if (windowScroll >= $("#states").offset().top - 500) {
+    if (!started) {
+      nums.forEach((num) => startCount(num));
+    }
+    started = true;
+  }
+});
+
+function startCount(el) {
+  let goal = el.dataset.goal;
+  let count = setInterval(() => {
+    el.textContent++;
+    if (el.textContent == goal) {
+      clearInterval(count);
+    }
+  }, 1500 / goal);
+}
