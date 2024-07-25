@@ -19,6 +19,9 @@
 .mainBg {
   background-color: var(--mianColor);
 }
+.mainBorderColor {
+  border-color: var(--mianColor) !important;
+}
 /*Colors*/
 
 html,
@@ -250,6 +253,7 @@ select option {
     url(../assets/backgrounds/backgroundPic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #home legend {
@@ -625,3 +629,37 @@ footer .socialIcons svg:hover {
   animation-timing-function: ease;
 }
 /****|Animation|****/
+
+/********************start of services pages***********************************/
+.servicePage {
+  width: 100%;
+  overflow: hidden;
+}
+.service-landing {
+  height: 55vh;
+  overflow: hidden;
+}
+.service-landing img {
+  filter: brightness(0.5);
+  width: 120%;
+  animation: scaleDown 4s forwards;
+}
+.pageLocation {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+@keyframes scaleDown {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* architecture and building services */
+.buildingImg {
+  filter: drop-shadow(0 25px 11px gray);
+}
+
+/* architecture and building services */
+
+/********************end of services pages***********************************/

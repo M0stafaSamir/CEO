@@ -38,6 +38,7 @@ const translations = {
                     on their requirements, including the demand for green and
                     sustainable structures. At CEO, we enthusiastically embrace
                     these challenges.`,
+    service1Desc2: `Our approach involves a thorough understanding of our clients' needs and aspirations, and we are dedicated to transforming their visions into reality. Our architectural team specializes in producing innovative designs for a wide range of projects, including residential, commercial, and various other building types. Additionally, we prioritize the implementation of best practices such as LEED certification, green building principles, and solar technology to create distinctive structures that are not only sustainable but also environmentally friendly.`,
 
     service2: "Contracts and Cost Consultancy",
     service2Desc: `CEO consultancy team provides the public and private sector with a comprehensive project consultation for pre-and-post contract administration, claims management, commercial and contractual support with a focus on minimizing client risks and enhancing value.`,
@@ -111,7 +112,7 @@ const translations = {
 
     service1: "الهندسة المعمارية وهندسة البناء",
     service1Desc: `أصبحت صناعة الهندسة المعمارية تتطلب المزيد والمزيد من المتطلبات، حيث يسعى العملاء إلى الحصول على تصميمات فريدة ومبتكرة مع الالتزام بميزانيات وجداول زمنية محدودة. وفي ظل المنافسة الشديدة اليوم، لا يرغب العملاء في التنازل عن متطلباتهم، بما في ذلك الطلب على الهياكل الخضراء والمستدامة. وفي شركة CEO، نحتضن هذه التحديات بحماس.`,
-
+    service1Desc2: `يتضمن نهجنا فهمًا شاملاً لاحتياجات عملائنا وتطلعاتهم، ونحن ملتزمون بتحويل رؤاهم إلى حقيقة. يتخصص فريقنا المعماري في إنتاج تصميمات مبتكرة لمجموعة واسعة من المشاريع، بما في ذلك السكنية والتجارية وأنواع مختلفة من المباني الأخرى. بالإضافة إلى ذلك، نعطي الأولوية لتنفيذ أفضل الممارسات مثل شهادة LEED ومبادئ البناء الأخضر وتكنولوجيا الطاقة الشمسية لإنشاء هياكل مميزة ليست مستدامة فحسب، بل وصديقة للبيئة أيضًا.`,
     service2: "العقود والاستشارات المتعلقة بالتكاليف",
     service2Desc: `يقدم فريقنا  التنفيذي للقطاعين العام والخاص استشارات شاملة للمشروع لإدارة ما قبل وما بعد العقد، وإدارة المطالبات، والدعم التجاري والعقدي مع التركيز على تقليل مخاطر العملاء وتعزيز القيمة.`,
 
@@ -164,41 +165,3 @@ document.addEventListener("DOMContentLoaded", () => {
   setLanguage(localStorage.getItem("lang"));
   langSelector.value = localStorage.getItem("lang");
 });
-
-const setLanguage = (language) => {
-  const navbarLinks = document.getElementById("navbarLinks");
-
-  const elements = document.querySelectorAll("[data-i18n]");
-  elements.forEach((element) => {
-    const translationKey = element.getAttribute("data-i18n");
-    element.innerHTML = translations[language][translationKey];
-  });
-
-  if (language === "ar") {
-    document.dir = "rtl";
-    navbarLinks.classList.replace("ms-auto", "me-auto");
-    document.querySelector("body").classList.replace("en-font", "ar-font");
-    document
-      .querySelector("#ourClients h2 span")
-      .classList.replace("our-clients-en", "our-clients-ar");
-    document
-      .querySelector("#services h2 span")
-      .classList.replace("our-services-en", "our-services-ar");
-    document
-      .querySelector("#projects h2 span")
-      .classList.replace("projects-en", "projects-ar");
-  } else {
-    document.dir = "ltr";
-    navbarLinks.classList.replace("me-auto", "ms-auto");
-    document.querySelector("body").classList.replace("ar-font", "en-font");
-    document
-      .querySelector("#ourClients h2 span")
-      .classList.replace("our-clients-ar", "our-clients-en");
-    document
-      .querySelector("#services h2 span")
-      .classList.replace("our-services-ar", "our-services-en");
-    document
-      .querySelector("#projects h2 span")
-      .classList.replace("projects-ar", "projects-en");
-  }
-};
