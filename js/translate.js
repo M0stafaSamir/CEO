@@ -30,6 +30,7 @@ const translations = {
     ourServices: "Our services",
     ourClients: "Our clients",
 
+    konwAboutService: "Have a look at the services we provide in detail:",
     service1: "Architecture and Building Engineering",
     service1Desc: `The architecture industry has become increasingly demanding,
                     with clients seeking unique and innovative designs while
@@ -45,20 +46,40 @@ const translations = {
 
     service3: "Project and Construction Management",
     service3Desc: `CEO is a leading provider of Project & Construction Management services to civil engineering infrastructure and transport schemes. Our consulting engineers manage all project and construction activities including planning, co-ordination, control, and supervision. From inception to completion. We are committed to fulfilling clients’ needs, delivering functional and cost-effective results. `,
+    service3Desc2: `Our project and construction managers are multi-skilled professionals with experience in most design disciplines and comprehensive knowledge of managing various types of contracts. We are proficient in all areas of project and construction management including planning, programming, site investigation and supervision, design management, contract administration, procurement and purchasing, and quality control and assurance. We have extensive experience in managing the interactions between the many different stakeholders within each project. Our team provides a single point of contact for all parties.`,
 
-    service4: "Design the Mechanical and Biological Treatment (MBT)",
+    service4:
+      "Design the Mechanical and Biological Treatment (MBT) for Solid Waste",
     service4Desc: `Our CEO's office is the driving force behind the meticulous design and execution of groundbreaking projects in the field of solid waste management. With a team of dedicated experts and a passion for innovation, we specialize in crafting custom solutions for Waste Transfer Stations, Landfill Design, and Mechanical and Biological Treatment (MBT) plants`,
-    service5: "Highways and Bridges structures structures",
-    service5Desc: `With the growing need for highways and bridges, the CEO's office stands prepared to assist our clients through its extensive expertise in civil, structural, and transportation engineering. Our services are individually tailored to each project, aiding our clients in the delivery of design drawings, precise cost estimations, and material assessments.`,
+    service5: "Highways and Bridges ",
+    service5Desc: `With the growing need for highways and bridges, the CEO's office stands prepared to assist our clients through its extensive expertise in civil, structural, and transportation engineering. Our services are individually tailored to each project, aiding our clients in the delivery of design drawings, precise cost estimations, and material assessments. We excel in guiding projects to meet crucial milestones while exceeding client expectations for the final deliverable. Our track record is a testament to our proficiency, innovation, and inventive problem-solving in the realm of highway and bridge design.`,
     service6: "Landscaping and Public Realm",
-    service6Desc: `In the realm of Landscaping and Public Realm, we firmly hold the belief that these components demand meticulous design consideration. We approach these aspects with a holistic perspective, striving to influence the development of spaces that seamlessly harmonize with their urban surroundings. Our approach considers various facets, including visual aesthetics, cultural significance, heritage preservation, and the enduring aspirations of the communities they cater to.`,
+    service6Desc: `In the realm of Landscaping and Public Realm, we firmly hold the belief that these components demand meticulous design consideration. We approach these aspects with a holistic perspective, striving to influence the development of spaces that seamlessly harmonize with their urban surroundings. Our approach considers various facets, including visual aesthetics, cultural significance, heritage preservation, and the enduring aspirations of the communities they cater to.
+CEO’s office has a well-established history of successfully executing landscaping projects that not only yield substantial cost savings but also minimize waste and reduce disruptions to the local environment.`,
 
-    service7: "Solid Waste Characterization Studies",
-    service8: "Water ways waste characterization",
-    service9: "Solid Waste Transfer Station",
-    service10: "Sanitary Landfills for Municipal Waste",
+    //soldi waste services
+    service7: "Solid Waste projects field",
+    service7Desc: `Our CEO's office is at the forefront of expertise when it comes to design and planning for Solid Waste Projects. Specializing in a range of crucial waste management solutions, including Waste Transfer Stations, Landfill Design, and Mechanical and Biological Treatment (MBT) plants, we lead the industry in creating sustainable and efficient solutions for managing solid waste. <br/><br/> With a deep commitment to environmental stewardship and innovative engineering, our CEO's office continually pushes the boundaries of what is possible in waste management. Through a combination of cutting-edge technology and a dedication to sustainable practices, we are paving the way towards a cleaner and greener future for waste management, setting the standard for excellence in the industry.`,
+    service7_2: "Solid Waste Characterization Studies",
+    service7_2Desc:
+      "Waste Characterization studies play a vital role in waste management and environmental planning, and there is a growing demand for such services as businesses and governments seek to improve their waste management practices, enhance recycling efforts, and minimize environmental impacts. ",
+    service7_3: "Water ways waste characterization ",
+    service7_3Desc:
+      "Waterways play a crucial role in Egypt's socio-economic fabric, supporting agriculture, transportation, and overall livelihoods. However, the issue of waterway pollution, particularly due to Municipal Solid Waste (MSW), has emerged as a significant environmental concern with far-reaching consequences. The interaction between growing urbanization, waste generation, and improper waste disposal practices has contributed to the degradation of Egypt's water bodies. This has prompted the need for a comprehensive understanding of the challenges posed by MSW pollution in Egypt's waterways and the potential solutions to address this complex issue.",
+    service7_4: "Solid Waste Transfer Station",
+    service7_4Desc: `Our CEO's office has established a remarkable track record in the field of solid waste management, having designed numerous Waste Transfer Stations not only in Egypt but also in various countries worldwide. Our extensive portfolio showcases a wealth of experience and expertise in creating efficient and sustainable solutions for waste transfer and management. 
+Our innovative designs have not only transformed the waste management landscape in Egypt but have also left a lasting impact on communities and regions across the globe.`,
+    service7_5: "Sanitary Landfills for Municipal Waste",
+    service7_5Desc:
+      "Our CEO's office boasts a wealth of experience in designing state-of-the-art Sanitary Landfills for municipal waste management. With a dedicated team of experts at the helm, we have successfully developed and executed landfill projects that adhere to the highest environmental and regulatory standards. Our extensive knowledge and innovative approaches have enabled us to create landfill designs that not only provide safe and efficient disposal of municipal waste but also prioritize environmental sustainability. From site selection and engineering to waste containment systems and gas management, our CEO's office leaves no stone unturned in ensuring that our landfill designs are not only technically sound but also environmentally responsible.",
+
     service11: "Utilities and Infrastructures",
+    service11Desc:
+      "In our CEO's office, we embrace the challenge of crafting exceptional infrastructure designs that stand as a hallmark of our expertise. As a respected engineering consultancy, we recognize the imperative of meeting the utility service needs of the public in accordance with the rigorous standards mandated by local utility authorities. Our utility team is composed of highly qualified engineers who adeptly manage both dry and wet infrastructure services.",
+
     service12: "The Urban and Master Planning",
+    service12Desc:
+      "Movement is essential to the growth and longevity of sustainable communities and that successful places have a clear integrated movement framework and are developed at the human scale. As societies become increasingly aware of the need for coherent and sustainable living environments, effective urban planning and development has become a high priority. CEO’s works closely with our clients to develop master plans usually through a workshop process to provide design advice and expertise in relation to movement issues for development projects. Our technical master planning services help develop urban areas in a holistic, integrated manner resulting in healthy, safe places in which people can thrive, communities can grow, and the environment can flourish.",
 
     //states
     years: "Years of",
@@ -110,30 +131,48 @@ const translations = {
     ourServices: "خدماتنا",
     ourClients: "عملائنا",
 
+    konwAboutService: "قم بإلقاء نظرة على الخدمات التي نقدمها بالتفصيل:",
     service1: "الهندسة المعمارية وهندسة البناء",
     service1Desc: `أصبحت صناعة الهندسة المعمارية تتطلب المزيد والمزيد من المتطلبات، حيث يسعى العملاء إلى الحصول على تصميمات فريدة ومبتكرة مع الالتزام بميزانيات وجداول زمنية محدودة. وفي ظل المنافسة الشديدة اليوم، لا يرغب العملاء في التنازل عن متطلباتهم، بما في ذلك الطلب على الهياكل الخضراء والمستدامة. وفي شركة CEO، نحتضن هذه التحديات بحماس.`,
     service1Desc2: `يتضمن نهجنا فهمًا شاملاً لاحتياجات عملائنا وتطلعاتهم، ونحن ملتزمون بتحويل رؤاهم إلى حقيقة. يتخصص فريقنا المعماري في إنتاج تصميمات مبتكرة لمجموعة واسعة من المشاريع، بما في ذلك السكنية والتجارية وأنواع مختلفة من المباني الأخرى. بالإضافة إلى ذلك، نعطي الأولوية لتنفيذ أفضل الممارسات مثل شهادة LEED ومبادئ البناء الأخضر وتكنولوجيا الطاقة الشمسية لإنشاء هياكل مميزة ليست مستدامة فحسب، بل وصديقة للبيئة أيضًا.`,
     service2: "العقود والاستشارات المتعلقة بالتكاليف",
-    service2Desc: `يقدم فريقنا  التنفيذي للقطاعين العام والخاص استشارات شاملة للمشروع لإدارة ما قبل وما بعد العقد، وإدارة المطالبات، والدعم التجاري والعقدي مع التركيز على تقليل مخاطر العملاء وتعزيز القيمة.`,
+    service2Desc: `يقدم فريقنا الاستشاري للقطاعين العام والخاص استشارات شاملة للمشروع لإدارة ما قبل وما بعد العقد، وإدارة المطالبات، والدعم التجاري والعقدي مع التركيز على تقليل مخاطر العملاء وتعزيز القيمة.`,
 
     service3: "إدارة المشاريع والبناء",
     service3Desc: `شركة رائدة في تقديم خدمات إدارة المشاريع والإنشاءات للبنية التحتية للهندسة المدنية ومشاريع النقل. يدير مهندسونا الاستشاريون جميع أنشطة المشاريع والإنشاءات بما في ذلك التخطيط والتنسيق والتحكم والإشراف. من البداية إلى النهاية. نحن ملتزمون بتلبية احتياجات العملاء وتقديم نتائج عملية وفعالة من حيث التكلفة.`,
+    service3Desc2: `إن مديري المشاريع والإنشاءات لدينا هم من المحترفين متعددي المهارات ولديهم خبرة في معظم تخصصات التصميم ومعرفة شاملة بإدارة أنواع مختلفة من العقود. نحن بارعون في جميع مجالات إدارة المشاريع والإنشاءات بما في ذلك التخطيط والبرمجة والتحقيق في الموقع والإشراف وإدارة التصميم وإدارة العقود والمشتريات ومراقبة الجودة وضمانها. لدينا خبرة واسعة في إدارة التفاعلات بين العديد من أصحاب المصلحة المختلفين داخل كل مشروع. يوفر فريقنا نقطة اتصال واحدة لجميع الأطراف.`,
 
-    service4: "تصميم المعالجة الميكانيكية والبيولوجية",
+    service4: "تصميم المعالجة الميكانيكية والبيولوجية للنفايات الصلبة",
     service4Desc: `مكتبنا هو القوة الدافعة وراء التصميم الدقيق وتنفيذ المشاريع الرائدة في مجال إدارة النفايات الصلبة. مع فريق من الخبراء المتفانين والشغف بالابتكار، نحن متخصصون في صياغة حلول مخصصة لمحطات نقل النفايات وتصميم مكبات النفايات ومحطات المعالجة الميكانيكية والبيولوجية (MBT)`,
 
     service5: "الطرق السريعة والجسور",
-    service5Desc: `مع تزايد الحاجة إلى الطرق السريعة والجسور، يقف المكتب على أهبة الاستعداد لمساعدة عملائنا من خلال خبرته الواسعة في الهندسة المدنية والبنيوية والنقل. يتم تصميم خدماتنا بشكل فردي لكل مشروع، مما يساعد عملائنا في تقديم الرسومات التصميمية وتقديرات التكلفة الدقيقة وتقييم المواد.`,
+    service5Desc: `مع تزايد الحاجة إلى الطرق السريعة والجسور، يقف مكتبنا على أهبة الاستعداد لمساعدة عملائنا من خلال خبرته الواسعة في الهندسة المدنية والبنيوية والنقل. يتم تصميم خدماتنا بشكل فردي لكل مشروع، مما يساعد عملائنا في تقديم رسومات التصميم وتقديرات التكلفة الدقيقة وتقييم المواد. نحن نتفوق في توجيه المشاريع لتحقيق المعالم الحاسمة مع تجاوز توقعات العملاء للمنتج النهائي. سجلنا الحافل هو شهادة على كفاءتنا وإبداعنا وحل المشكلات الإبداعية في مجال تصميم الطرق السريعة والجسور.`,
 
     service6: "تنسيق الحدائق والمجال العام",
-    service6Desc: `في مجال تصميم المناظر الطبيعية والمجال العام، نؤمن إيمانًا راسخًا بأن هذه المكونات تتطلب مراعاة تصميمية دقيقة. ونحن نتعامل مع هذه الجوانب بمنظور شامل، ونسعى جاهدين للتأثير على تطوير المساحات التي تنسجم بسلاسة مع محيطها الحضري. ويأخذ نهجنا في الاعتبار جوانب مختلفة، بما في ذلك الجماليات البصرية، والأهمية الثقافية، والحفاظ على التراث، والتطلعات الدائمة للمجتمعات التي نخدمها.`,
+    service6Desc: `في مجال تصميم المناظر الطبيعية والمجال العام، نؤمن إيمانًا راسخًا بأن هذه المكونات تتطلب مراعاة تصميمية دقيقة. نتعامل مع هذه الجوانب بمنظور شامل، ونسعى جاهدين للتأثير على تطوير المساحات التي تنسجم بسلاسة مع محيطها الحضري. يأخذ نهجنا في الاعتبار جوانب مختلفة، بما في ذلك الجماليات البصرية، والأهمية الثقافية، والحفاظ على التراث، والتطلعات الدائمة للمجتمعات التي يخدمونها. يتمتع مكتبنا بتاريخ راسخ في تنفيذ مشاريع تصميم المناظر الطبيعية بنجاح والتي لا تحقق وفورات كبيرة في التكلفة فحسب، بل تقلل أيضًا من النفايات وتقلل من الاضطرابات في البيئة المحلية.`,
 
-    service7: "دراسات توصيف النفايات الصلبة",
-    service8: "توصيف نفايات المجاري المائية",
-    service9: "محطة نقل النفايات الصلبة",
-    service10: "مكبات صحية للنفايات البلدية",
+    //soldi waste services
+    service7: "مجال مشاريع النفايات الصلبة",
+    service7Desc: `يعد مكتبنا من أفضل المكاتب المتخصصة في تصميم وتخطيط مشاريع النفايات الصلبة. ونحن متخصصون في مجموعة من حلول إدارة النفايات الحاسمة، بما في ذلك محطات نقل النفايات وتصميم مكبات النفايات ومصانع المعالجة الميكانيكية والبيولوجية، ونتصدر الصناعة في ابتكار حلول مستدامة وفعالة لإدارة النفايات الصلبة. <br/><br/> وبفضل التزامنا العميق بالحفاظ على البيئة والهندسة المبتكرة، يواصل مكتب الرئيس التنفيذي لدينا دفع حدود ما هو ممكن في إدارة النفايات. ومن خلال الجمع بين التكنولوجيا المتطورة والتفاني في الممارسات المستدامة، فإننا نمهد الطريق نحو مستقبل أنظف وأكثر خضرة لإدارة النفايات، ونضع معيارًا للتميز في الصناعة.`,
+    service7_2: "دراسات توصيف النفايات الصلبة",
+    service7_2Desc:
+      "تلعب دراسات تصنيف النفايات دورًا حيويًا في إدارة النفايات والتخطيط البيئي، وهناك طلب متزايد على هذه الخدمات حيث تسعى الشركات والحكومات إلى تحسين ممارسات إدارة النفايات، وتعزيز جهود إعادة التدوير، والحد من التأثيرات البيئية.",
+    service7_3: "توصيف نفايات المجاري المائية",
+    service7_3Desc:
+      "تلعب المجاري المائية دورًا حاسمًا في النسيج الاجتماعي والاقتصادي في مصر، حيث تدعم الزراعة والنقل وسبل العيش بشكل عام. ومع ذلك، برزت قضية تلوث المجاري المائية، وخاصة بسبب النفايات الصلبة البلدية، كمشكلة بيئية كبيرة ذات عواقب بعيدة المدى. وقد ساهم التفاعل بين التوسع الحضري المتزايد وتوليد النفايات وممارسات التخلص غير السليمة من النفايات في تدهور المسطحات المائية في مصر. وقد دفع هذا إلى الحاجة إلى فهم شامل للتحديات التي يفرضها تلوث النفايات الصلبة البلدية في المجاري المائية في مصر والحلول المحتملة لمعالجة هذه القضية المعقدة.",
+    service7_4: "محطة نقل النفايات الصلبة",
+    service7_4Desc: `لقد حقق مكتبنا سجلاً حافلاً في مجال إدارة النفايات الصلبة، حيث صمم العديد من محطات نقل النفايات ليس فقط في مصر ولكن أيضًا في مختلف البلدان حول العالم. تُظهر محفظتنا الواسعة ثروة من الخبرة والمهارة في ابتكار حلول فعالة ومستدامة لنقل النفايات وإدارتها. لم تعمل تصميماتنا المبتكرة على تحويل مشهد إدارة النفايات في مصر فحسب، بل تركت أيضًا تأثيرًا دائمًا على المجتمعات والمناطق في جميع أنحاء العالم.`,
+    service7_5: "مكبات صحية للنفايات البلدية",
+    service7_5Desc:
+      "يتمتع مكتبنا بخبرة واسعة في تصميم مكبات النفايات الصحية الحديثة لإدارة النفايات البلدية. وبفضل فريق متخصص من الخبراء، نجحنا في تطوير وتنفيذ مشاريع مكبات النفايات التي تلتزم بأعلى المعايير البيئية والتنظيمية. وقد مكنتنا معرفتنا الواسعة وأساليبنا المبتكرة من إنشاء تصميمات مكبات نفايات لا توفر التخلص الآمن والفعال من النفايات البلدية فحسب، بل وتعطي الأولوية أيضًا للاستدامة البيئية. من اختيار الموقع والهندسة إلى أنظمة احتواء النفايات وإدارة الغاز، لا يدخر مكتب الرئيس التنفيذي جهدًا لضمان أن تصميمات مكبات النفايات لدينا ليست سليمة من الناحية الفنية فحسب، بل إنها أيضًا مسؤولة بيئيًا.",
+
     service11: "المرافق والبنية التحتية",
+    service11Desc:
+      "في مكتبنا، نتقبل التحدي المتمثل في صياغة تصميمات استثنائية للبنية التحتية تشكل علامة مميزة لخبرتنا. وباعتبارنا شركة استشارية هندسية محترمة، فإننا ندرك ضرورة تلبية احتياجات خدمات المرافق العامة وفقًا للمعايير الصارمة التي تفرضها سلطات المرافق المحلية. يتألف فريق المرافق لدينا من مهندسين مؤهلين تأهيلاً عالياً يديرون بمهارة خدمات البنية التحتية الجافة والرطبة.",
+
     service12: "التخطيط الحضري والتخطيط الشامل",
+    service12Desc:
+      "الحركة ضرورية لنمو المجتمعات المستدامة وطول عمرها وأن الأماكن الناجحة لديها إطار حركة متكامل واضح ويتم تطويرها على نطاق بشري. مع تزايد وعي المجتمعات بالحاجة إلى بيئات معيشية متماسكة ومستدامة، أصبح التخطيط الحضري الفعال والتنمية أولوية عالية. تعمل شركة CEO بشكل وثيق مع عملائنا لتطوير الخطط الرئيسية عادةً من خلال عملية ورشة عمل لتقديم المشورة والخبرة التصميمية فيما يتعلق بقضايا الحركة لمشاريع التنمية. تساعد خدمات التخطيط الرئيسية الفنية لدينا في تطوير المناطق الحضرية بطريقة شاملة ومتكاملة مما يؤدي إلى أماكن صحية وآمنة حيث يمكن للناس أن يزدهروا، ويمكن للمجتمعات أن تنمو، ويمكن للبيئة أن تزدهر.",
 
     //states
     years: "عدد سنين",

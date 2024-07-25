@@ -11,6 +11,7 @@ const setLanguage = (language) => {
     const translationKey = element.getAttribute("data-i18n");
     element.innerHTML = translations[language][translationKey];
   });
+  const pageLocation = document.querySelector(".pageLocation");
 
   if (language === "ar") {
     document.dir = "rtl";
@@ -20,6 +21,9 @@ const setLanguage = (language) => {
     document
       .getElementById("angleIcon")
       .classList.replace("fa-angle-right", "fa-angle-left");
+    //page location
+    pageLocation.classList.replace("start-0", "end-0");
+    pageLocation.classList.replace("border-end", "border-start");
   } else {
     document.dir = "ltr";
     navbarLinks.classList.replace("me-auto", "ms-auto");
@@ -27,5 +31,8 @@ const setLanguage = (language) => {
     document
       .getElementById("angleIcon")
       .classList.replace("fa-angle-left", "fa-angle-right");
+    //page location
+    pageLocation.classList.replace("end-0", "start-0");
+    pageLocation.classList.replace("border-start", "border-end");
   }
 };

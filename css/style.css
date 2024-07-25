@@ -124,6 +124,9 @@ a {
 .w-300px {
   width: 300px;
 }
+.h-300px {
+  height: 300px;
+}
 /* spacing */
 
 /****|setting box|****/
@@ -151,6 +154,10 @@ a {
   .navbar {
     top: 0;
   }
+}
+
+.navbar .nav-item .nav-link {
+  margin-right: 10px;
 }
 
 .dropdown-menu {
@@ -395,6 +402,12 @@ select option {
   content: "خدماتنا";
   font-size: 60px;
 }
+#services h5 {
+  min-height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .servicesLayerHov {
   background-color: #000000c9;
@@ -635,11 +648,9 @@ footer .socialIcons svg:hover {
   width: 100%;
   overflow: hidden;
 }
-.service-landing {
-  height: 55vh;
-  overflow: hidden;
-}
+
 .service-landing img {
+  height: 55vh;
   filter: brightness(0.5);
   width: 120%;
   animation: scaleDown 4s forwards;
@@ -656,7 +667,7 @@ footer .socialIcons svg:hover {
   }
 }
 /* architecture and building services */
-.buildingImg {
+.dropShadow {
   filter: drop-shadow(0 25px 11px gray);
 }
 

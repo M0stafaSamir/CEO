@@ -5,7 +5,6 @@ const navbarHeight = $(".navbar").outerHeight(true);
 // const changeingPoint = $("#home h1").offset().top;
 $(window).on("scroll", function () {
   let windowScroll = $(window).scrollTop();
-  console.log(windowScroll);
   if (windowScroll > 115) {
     $(".navbar").addClass("top-0");
   } else {
