@@ -25,6 +25,9 @@ const translations = {
               small team, we have now expanded to employ a workforce of over a
               hundred professionals, including Engineers, Architects, Cost
               Consultants, and Construction Management Experts.`,
+
+    whoWeContent2: `CEO offers a comprehensive array of services, encompassing Environmental Projects, Construction Projects, Waste-to-Energy Projects, Waste Management, Bridges Design, Utilities and Networks Design, Contracts and Cost Consultancy, Construction and Program Management, Civil and Architectural Design, Electromechanical Design, Urban and Master Planning, Landscaping, and Transportation Planning. Our aim is to provide an integrated offering that caters to all our clients' needs.`,
+
     knowMore: `<i class="fa-solid fa-angles-right"></i> Read More`,
 
     ourServices: "Our services",
@@ -101,6 +104,29 @@ Our innovative designs have not only transformed the waste management landscape 
                 our staff to be able to apply their knowledge and expertise in a
                 nurturing atmosphere.`,
 
+    //about us
+    experts: "experienced team  ",
+    expertsContent:
+      "Construction Engineering Office (CEO) was established by a group of highly experienced engineers and architects.",
+    global: "Global Success",
+    globalContent:
+      "we have achieved significant milestones by successfully delivering numerous key projects not only within Egypt but also in various other countries",
+    ServiceSpectrum: "Service Spectrum",
+    ServiceSpectrumcontent:
+      "CEO offers a comprehensive array of services, encompassing Environmental Projects, Construction Projects, Waste-to-Energy Projects, etc..",
+    coreValues: "Our Core Values",
+    clients: "clients",
+    clientsContent:
+      "As the CEO, our success is synonymous with the success of our clients. We set industry standards by delivering exceptional services and innovative solutions tailored to our clients' needs. We are deeply committed to solving our clients' challenges and exploring new opportunities alongside them. What sets CEO apart is our ability to understand our clients' specific requirements and consistently exceed their expectations.",
+    integrity: "integrity",
+    integrityContent: `CEO's ascent to becoming a leading and respected firm in the industry is built on a foundation of ethical decision-making, unwavering commitment to keeping promises, and fostering an environment of mutual respect and trust for all. Integrity is at the core of everything we do. Employees. Our journey of success would not have been possible without the dedication, respect, and encouragement we extend to our employees. As the CEO, our employees are the heartbeat of our business and the driving force behind our accomplishments. We value diversity and embrace a rich tapestry of ideas and cultures within our team.`,
+    innovation: "innovation",
+    innovationContent:
+      "CEO goes the extra mile to foster innovation by tirelessly seeking creative, novel, and improved ways to deliver expertise across all aspects of our business. Creativity, exploration, and imagination are the cornerstones of our work ethos. Our innovative solutions are not just imaginative; they are also grounded in practicality, effectively meeting our clients' precise requirements.",
+    agility: "agility",
+    agilityContent:
+      "CEO's passionate and well-trained workforce thrives on change, flexibility, and adaptability in the ever-evolving engineering market. In CEO, we proactively anticipate shifts in market dynamics and collaborate closely with our clients and employees to adeptly respond to these",
+    //footer
     copyRights: ` Copyright &copy; 2024 Consultant Engineering Office, All rights
                 reserved.`,
   },
@@ -126,6 +152,7 @@ Our innovative designs have not only transformed the waste management landscape 
     فريق صغير، لقد توسعنا الآن لتوظيف قوة عاملة تزيد عن
     مائة مهني، بما في ذلك المهندسون والمهندسون المعماريون والتكلفة
     خبراء استشاريون وخبراء في إدارة البناء.`,
+    whoWeContent2: `تقدم شركة CEO مجموعة شاملة من الخدمات، بما في ذلك المشاريع البيئية ومشاريع البناء ومشاريع تحويل النفايات إلى طاقة وإدارة النفايات وتصميم الجسور وتصميم المرافق والشبكات والاستشارات التعاقدية والتكاليف وإدارة البناء والبرامج والتصميم المدني والمعماري والتصميم الكهروميكانيكي والتخطيط الحضري والتخطيط الرئيسي وتنسيق الحدائق وتخطيط النقل. هدفنا هو تقديم عرض متكامل يلبي جميع احتياجات عملائنا.`,
     knowMore: `<i class="fa-solid fa-angles-left"></i> اقرأ المزيد`,
 
     ourServices: "خدماتنا",
@@ -189,7 +216,28 @@ Our innovative designs have not only transformed the waste management landscape 
     visionContent: `رؤيتنا هي تزويد عملائنا بالحلول والخدمات التي تعطي الأولوية للسلامة والاستدامة والابتكار مع الالتزام بالمعايير المحلية والدولية.`,
     mission: "مهمتنا",
     missionContent: `مهمتنا هي أن نسعى جاهدين لإنشاء بيئة مهنية وإبداعية لموظفينا ليكونوا قادرين على تطبيق معرفتهم وخبرتهم في جو داعم.`,
+    //about us
+    experts: "فريق ذو خبرة",
+    expertsContent:
+      "تم إنشاء مكتب هندسة البناء (CEO) من قبل مجموعة من المهندسين والمعماريين ذوي الخبرة العالية.",
+    global: "نجاح عالمي",
+    globalContent:
+      "لقد حققنا إنجازات مهمة من خلال تقديم العديد من المشاريع الرئيسية بنجاح ليس فقط داخل مصر ولكن أيضًا في العديد من البلدان الأخرى",
 
+    ServiceSpectrumcontent:
+      "تقدم شركة CEO مجموعة شاملة من الخدمات، بما في ذلك المشاريع البيئية، ومشاريع البناء، ومشاريع تحويل النفايات إلى طاقة، وما إلى ذلك.",
+    coreValues: "قيمنا الأساسية",
+    clients: "العملاء",
+    clientsContent:
+      "باعتبارنا شركة سي إي أو، فإن نجاحنا مرادف لنجاح عملائنا. فنحن نضع معايير الصناعة من خلال تقديم خدمات استثنائية وحلول مبتكرة مصممة خصيصًا لتلبية احتياجات عملائنا. ونحن ملتزمون بشدة بحل تحديات عملائنا واستكشاف فرص جديدة معهم. وما يميز شركة سي إي زد أو هو قدرتنا على فهم المتطلبات المحددة لعملائنا وتجاوز توقعاتهم باستمرار.",
+    integrity: "النزاهة",
+    integrityContent: `إن صعود شركة CEO لتصبح شركة رائدة ومحترمة في الصناعة يعتمد على أساس اتخاذ القرارات الأخلاقية والالتزام الثابت بالوفاء بالوعود وتعزيز بيئة من الاحترام المتبادل والثقة للجميع. النزاهة هي جوهر كل ما نقوم به. الموظفون. لم تكن رحلتنا نحو النجاح ممكنة بدون التفاني والاحترام والتشجيع الذي نقدمه لموظفينا. بصفتي الرئيس التنفيذي، فإن موظفينا هم نبض أعمالنا والقوة الدافعة وراء إنجازاتنا. نحن نقدر التنوع ونحتضن نسيجًا غنيًا من الأفكار والثقافات داخل فريقنا.`,
+    innovation: "الإبتكار",
+    innovationContent:
+      "تبذل شركة CEO قصارى جهدها لتعزيز الابتكار من خلال البحث بلا كلل عن طرق إبداعية ومبتكرة ومحسنة لتقديم الخبرة في جميع جوانب أعمالنا. الإبداع والاستكشاف والخيال هي حجر الزاوية في أخلاقيات عملنا. حلولنا المبتكرة ليست مجرد حلول خيالية؛ بل إنها تستند أيضًا إلى التطبيق العملي، وتلبي بشكل فعال المتطلبات الدقيقة لعملائنا.",
+    agility: "سهولة التغير",
+    agilityContent:
+      "تزدهر القوى العاملة المتحمسة والمدربة تدريباً جيداً في شركة CEO على التغيير والمرونة والقدرة على التكيف في سوق الهندسة دائم التطور. في CEO، نتوقع بشكل استباقي التحولات في ديناميكيات السوق ونتعاون بشكل وثيق مع عملائنا وموظفينا للاستجابة لها ببراعة",
     copyRights: `  مكتب  الإستشارات الهندسيه جميع الحقوق محفوظه  &copy; 2024`,
   },
 };

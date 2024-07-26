@@ -1,7 +1,3 @@
-// document.addEventListener("DOMContentLoaded", () => {
-//   $(".service-landing img").animate({ width: "100%" }, 3000);
-// });
-
 //after translation modification
 const setLanguage = (language) => {
   const navbarLinks = document.getElementById("navbarLinks");

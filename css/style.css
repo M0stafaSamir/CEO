@@ -127,6 +127,9 @@ a {
 .h-300px {
   height: 300px;
 }
+.h-450px {
+  height: 450px;
+}
 /* spacing */
 
 /****|setting box|****/
@@ -644,10 +647,6 @@ footer .socialIcons svg:hover {
 /****|Animation|****/
 
 /********************start of services pages***********************************/
-.servicePage {
-  width: 100%;
-  overflow: hidden;
-}
 
 .service-landing img {
   height: 55vh;
@@ -674,3 +673,27 @@ footer .socialIcons svg:hover {
 /* architecture and building services */
 
 /********************end of services pages***********************************/
+
+/********************start of about us page***********************************/
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--mianColor) !important;
+  color: white;
+}
+#aboutusInfo {
+  background-image: url("../assets/backgrounds/architectural-design-building-building-wall-dark-building-modern-concrete-structure-3d-re.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-item {
+  background-color: #fff3cd;
+  height: 250px;
+}
+#coreValues {
+  background-color: #f2f2f2;
+}
+.accordion-button::after {
+  margin: 0px;
+}
+
+/********************end of about us page***********************************/
