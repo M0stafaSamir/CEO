@@ -191,9 +191,9 @@ a {
   transition: 0.5s;
 }
 
-/* nav .nav-link.active {
-  color: #f17f0f !important;
-} */
+nav .nav-link.active {
+  color: var(--mianColor) !important;
+}
 nav .nav-link.active.underLine::after {
   width: 90%;
 }
@@ -697,3 +697,13 @@ footer .socialIcons svg:hover {
 }
 
 /********************end of about us page***********************************/
+
+/********************start of contact us  page***********************************/
+#contactInfo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/backgrounds/vertical-shot-modern-office-buildings-with-big-reflective-windows-sunlight\ \(1\).jpg");
+}
+.ContactBtn:hover {
+  background-color: var(--secondColor);
+}
+/********************end of contact us  page***********************************/

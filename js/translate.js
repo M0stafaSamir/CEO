@@ -126,6 +126,18 @@ Our innovative designs have not only transformed the waste management landscape 
     agility: "agility",
     agilityContent:
       "CEO's passionate and well-trained workforce thrives on change, flexibility, and adaptability in the ever-evolving engineering market. In CEO, we proactively anticipate shifts in market dynamics and collaborate closely with our clients and employees to adeptly respond to these",
+    //contact us
+    hours: "open hours :",
+    ouremail: "our emails :",
+    callOn: "call us on :",
+    location: "location :",
+
+    writeMessage: "write a message",
+    ouestions: "have any questions ?",
+    tankMessage:
+      "Thank you very much for your interest in our company and our services and if you have any questions, please write us a message now!",
+    sendMessage: `send Message <i class="fa-solid fa-paper-plane"></i>`,
+
     //footer
     copyRights: ` Copyright &copy; 2024 Consultant Engineering Office, All rights
                 reserved.`,
@@ -238,6 +250,18 @@ Our innovative designs have not only transformed the waste management landscape 
     agility: "سهولة التغير",
     agilityContent:
       "تزدهر القوى العاملة المتحمسة والمدربة تدريباً جيداً في شركة CEO على التغيير والمرونة والقدرة على التكيف في سوق الهندسة دائم التطور. في CEO، نتوقع بشكل استباقي التحولات في ديناميكيات السوق ونتعاون بشكل وثيق مع عملائنا وموظفينا للاستجابة لها ببراعة",
+    //contact us
+    hours: "ساعات العمل :",
+    ouremail: "بريدنا الإلكتروني:",
+    callOn: "اتصل بنا على :",
+    location: "عنواننا :",
+
+    writeMessage: "اكتب رسالة",
+    ouestions: "لديك أي أسئلة ؟",
+    tankMessage:
+      "نشكرك كثيرًا على اهتمامك بشركتنا وخدماتنا، وإذا كان لديك أي أسئلة، فيرجى مراسلتنا الآن!",
+    sendMessage: `إرسال رسالة <i class="fa-solid fa-paper-plane"></i>`,
+    //footer
     copyRights: `  مكتب  الإستشارات الهندسيه جميع الحقوق محفوظه  &copy; 2024`,
   },
 };

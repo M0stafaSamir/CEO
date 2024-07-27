@@ -221,7 +221,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link underLine text-white fw-medium active"
+                class="nav-link underLine text-white fw-medium"
                 href="#aboutus"
                 data-i18n="aboutus"
                 >About us</a
@@ -229,7 +229,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link underLine text-white fw-medium"
+                class="nav-link underLine text-white fw-medium active"
                 href="#contactus"
                 data-i18n="contactus"
                 >Contact us</a
@@ -255,196 +255,155 @@
       <div class="service-landing position-relative overflow-hidden">
         <img
           class="object-fit-cover"
-          src="assets/backgrounds/dam_dejvice_9.jpg"
+          src="assets/backgrounds/contactUsBg.jpg"
           alt="steel building" />
         <div
           class="pageLocation position-absolute bottom-0 start-0 p-3 text-white border-0 border-end border-4 mainBorderColor">
           <a class="text-white" href="index.html" data-i18n="home"> Home</a>
           <i id="angleIcon" class="fa-solid fa-angle-right"></i>
-          <span class="mainColor" data-i18n="aboutus"></span>
+          <span class="mainColor" data-i18n="contactus"></span>
         </div>
       </div>
-      <div class="service-content py-5">
+      <div class="contact-content py-5">
         <div class="container">
           <h1
             class="text-uppercase fw-bold text-center mb-5"
-            data-i18n="aboutus"></h1>
-          <div class="row g-5 py-5">
-            <div class="col-lg-6">
-              <div class="fw-medium lh-lg">
-                <p data-i18n="whoWeContent"></p>
-                <p data-i18n="whoWeContent2"></p>
+            data-i18n="contactus"></h1>
+          <div id="contactInfo" class="contact-info bg-danger">
+            <div id class="row">
+              <div class="col-lg-3">
+                <div
+                  class="p-3 d-flex flex-column justify-content-center align-items-center text-white">
+                  <p>
+                    <i class="fa-solid fa-map-location-dot fs-3"></i>
+                  </p>
+                  <p
+                    data-i18n="location"
+                    class="fs-5 m-0 text-capitalize fw-bold">
+                    Location:
+                  </p>
+                  <p class="text-center">13 Ahmed Orbi Street, Cairo, Egypt</p>
+                </div>
               </div>
-            </div>
-            <div class="col-lg-6">
-              <div>
-                <img
-                  class="w-100 h-450px object-fit-cover animate__animated animate__slideInUp"
-                  src="assets/backgrounds/office.jpg"
-                  alt="office" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <section id="aboutusInfo" class="py-5">
-          <div class="container">
-            <h2
-              data-i18n="homelegend"
-              class="text-center text-uppercase fw-bolder mb-5"></h2>
+              <div class="col-lg-3">
+                <div
+                  class="p-3 d-flex flex-column justify-content-center align-items-center text-white">
+                  <p><i class="fa-solid fa-phone fs-3"></i></p>
+                  <p
+                    data-i18n="callOn"
+                    class="fs-5 m-0 text-capitalize fw-bold">
+                    Call us on:
+                  </p>
 
-            <div class="row g-5">
-              <div class="col-lg-4">
-                <div
-                  class="about-item p-3 text-center d-flex flex-column justify-content-center align-items-center">
-                  <div>
-                    <i class="fa-solid fa-user-tie fs-1 p-3"></i>
-                  </div>
-                  <h4 data-i18n="experts" class="text-capitalize fw-bold"></h4>
-                  <p data-i18n="expertsContent"></p>
+                  <ul dir="ltr" class="list-unstyled">
+                    <li>+201158844665</li>
+                    <li>+201002448890</li>
+                    <li>+18195801685</li>
+                  </ul>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-3">
                 <div
-                  class="about-item p-3 text-center d-flex flex-column justify-content-center align-items-center">
-                  <div>
-                    <i class="fa-solid fa-globe fs-1 p-3"></i>
-                  </div>
-                  <h4 data-i18n="global" class="text-capitalize fw-bold"></h4>
-                  <p data-i18n="globalContent"></p>
+                  class="p-3 d-flex flex-column justify-content-center align-items-center text-white">
+                  <p><i class="fa-solid fa-envelope fs-3"></i></p>
+                  <p
+                    data-i18n="ouremail"
+                    class="fs-5 m-0 text-capitalize fw-bold">
+                    Our emails:
+                  </p>
+                  <ul dir="ltr" class="list-unstyled">
+                    <li>CEOeng84@gmail.com</li>
+                    <li>Engkareem73@gmail.com</li>
+                    <li>Ahmed.ali@usherbrooke.ca</li>
+                  </ul>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-3">
                 <div
-                  class="about-item p-3 text-center d-flex flex-column justify-content-center align-items-center">
-                  <div>
-                    <i class="fa-solid fa-handshake fs-2 p-3"></i>
-                  </div>
-                  <h4
-                    data-i18n="ourServices"
-                    class="text-capitalize fw-bold"></h4>
-                  <p data-i18n="ServiceSpectrumcontent"></p>
+                  class="p-3 d-flex flex-column justify-content-center align-items-center text-white">
+                  <p><i class="fa-regular fa-clock fs-3"></i></p>
+                  <p data-i18n="hours" class="fs-5 m-0 text-capitalize fw-bold">
+                    open hours:
+                  </p>
+                  <p class="text-center">Open Hours 09:00 AM - 06:30 PM</p>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <section id="coreValues" class="py-5">
-          <div class="container">
-            <h2
-              data-i18n="coreValues"
-              class="fw-bold text-center text-capitalize mb-5"></h2>
-            <div class="row g-5 align-items-center">
-              <div class="col-lg-6">
-                <div>
-                  <img
-                    class="w-100"
-                    src="assets/backgrounds/output-onlinepngtools.png"
-                    alt="" />
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="accordion" id="accordionExample">
-                  <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button d-flex justify-content-between text-capitalize fw-bold rounded-pill border border-1 mb-3"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne">
-                        <span data-i18n="clients" class="corevls"></span>
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseOne"
-                      class="accordion-collapse collapse show"
-                      data-bs-parent="#accordionExample">
-                      <div
-                        data-i18n="clientsContent"
-                        class="accordion-body"></div>
-                    </div>
-                  </div>
-                  <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button d-flex justify-content-between collapsed fw-bold rounded-pill border border-1 mb-3"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="collapseTwo">
-                        <span data-i18n="integrity" class="corevls"></span>
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseTwo"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionExample">
-                      <div
-                        data-i18n="integrityContent"
-                        class="accordion-body"></div>
-                    </div>
-                  </div>
-                  <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button d-flex justify-content-between collapsed fw-bold rounded-pill border border-1 mb-3"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree"
-                        aria-expanded="false"
-                        aria-controls="collapseThree">
-                        <span data-i18n="innovation" class="corevls"></span>
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseThree"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionExample">
-                      <div
-                        data-i18n="innovationContent"
-                        class="accordion-body"></div>
-                    </div>
-                  </div>
-                  <div class="accordion-item bg-transparent border-0">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button d-flex justify-content-between collapsed fw-bold rounded-pill border border-1 mb-3"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour"
-                        aria-expanded="false"
-                        aria-controls="collapseFour">
-                        <span data-i18n="agility" class="corevls"></span>
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseFour"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionExample">
-                      <div
-                        data-i18n="agilityContent"
-                        class="accordion-body"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.2504368082185!2d31.259410632308455!3d30.065484401395462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458408118dd3df1%3A0xe53eb54f0c1aca4d!2z2LHZhdiz2YrYs9iMINin2YTZgtio2YrYs9mK2Iwg2K3ZiiDYp9mE2LjYp9mH2LHYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1722091857700!5m2!1sar!2seg"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="container">
+        <p data-i18n="writeMessage" class="mainColor text-center fw-bold">
+          write a message
+        </p>
+        <h2 data-i18n="ouestions" class="text-capitalize text-center fw-bold">
+          Have any questions?
+        </h2>
+        <p
+          data-i18n="tankMessage"
+          class="text-center w-75 mx-auto text-black-50 mb-3">
+          Thank you very much for your interest in our company and our services
+          and if you have any questions, please write us a message now!
+        </p>
+        <form
+          dir="ltr"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="py-5">
+          <div class="row">
+            <input
+              type="hidden"
+              name="access_key"
+              value="48c84f9b-c9f5-412f-9154-6f55c9ec7b93" />
+
+            <div class="mb-4 col-md-12 col-lg-6">
+              <input
+                type="text"
+                class="form-control rounded-0 border border-2 py-2"
+                id="exampleFormControlInput1"
+                name="name"
+                required
+                placeholder="Your Name" />
+            </div>
+            <div class="mb-4 col-md-12 col-lg-6">
+              <input
+                type="email"
+                class="form-control rounded-0 border border-2 py-2"
+                name="email"
+                id="exampleFormControlInput2"
+                required
+                placeholder="Your Email" />
             </div>
           </div>
-        </section>
-        <!-- start of ourClients -->
-        <section dir="ltr" id="ourClients" class="py-5">
-          <div class="logos">
-            <div class="logos-slide">
-              <img src="assets/clients.png" alt="Our Clients" />
-            </div>
-            <div class="logos-slide">
-              <img src="assets/clients.png" alt="Our Clients" />
-            </div>
+          <div class="mb-4">
+            <textarea
+              class="form-control rounded-0 border border-2"
+              id="exampleFormControlTextarea1"
+              placeholder="Your Message"
+              name="message"
+              required
+              rows="6"></textarea>
           </div>
-        </section>
-        <!-- end of ourClients -->
+          <div>
+            <button
+              type="submit"
+              data-i18n="sendMessage"
+              class="text-uppercase mx-auto d-block ContactBtn btn mainBg rounded-0 text-white mt-4">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
       </div>
     </div>
 
