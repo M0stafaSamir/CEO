@@ -1,8 +1,8 @@
 const translations = {
   en: {
     home: "Home",
-    services: "Services",
-    projects: "Projects",
+    services: `Services <i class="fa-solid fa-angle-down"></i>`,
+    projects: `Projects <i class="fa-solid fa-angle-down"></i>`,
     aboutus: "About us",
     contactus: "Contact us",
     projectOne: "Project One",
@@ -144,8 +144,8 @@ Our innovative designs have not only transformed the waste management landscape 
   },
   ar: {
     home: "الرئيسية",
-    services: "خدماتنا  ",
-    projects: "المشروعات",
+    services: `خدماتنا <i class="fa-solid fa-angle-down"></i>`,
+    projects: `المشروعات <i class="fa-solid fa-angle-down"></i>`,
     aboutus: "معلومات عنا",
     contactus: "اتصل بنا",
     projectOne: "المشروع لاول",

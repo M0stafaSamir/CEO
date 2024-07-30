@@ -18,7 +18,8 @@ const setLanguage = (language) => {
       .getElementById("angleIcon")
       .classList.replace("fa-angle-right", "fa-angle-left");
     //page location
-    pageLocation.classList.replace("start-0", "end-0");
+    pageLocation.classList.remove("start-0");
+    pageLocation.classList.add("end-0");
     pageLocation.classList.replace("border-end", "border-start");
   } else {
     document.dir = "ltr";
@@ -28,7 +29,8 @@ const setLanguage = (language) => {
       .getElementById("angleIcon")
       .classList.replace("fa-angle-left", "fa-angle-right");
     //page location
-    pageLocation.classList.replace("end-0", "start-0");
+    pageLocation.classList.remove("end-0");
+    pageLocation.classList.add("start-0");
     pageLocation.classList.replace("border-start", "border-end");
   }
 };

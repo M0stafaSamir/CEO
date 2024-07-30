@@ -217,9 +217,9 @@ select option {
 .dropdown-menu li .dropdown-item {
   color: white;
 }
-.dropdown-menu li .dropdown-item:hover {
-  background-color: var(--mianColor) !important;
-  color: black;
+.dropdown-menu li .dropdown-item:hover,
+.dropdown-item.active {
+  background-color: var(--navColor) !important;
 }
 
 .navbar-toggler {
@@ -247,12 +247,17 @@ select option {
   .navbar-nav {
     background-color: var(--mianColor);
   }
-  .navbar .nav-item .nav-link:hover {
+
+  .navbar .nav-item .nav-link:hover,
+  nav .nav-link.active {
     color: black !important;
   }
   #navbarLinks {
     padding: 20px 0px;
   }
+}
+.dropdown-toggle::after {
+  display: none;
 }
 /****|end of navbar|****/
 
