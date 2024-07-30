@@ -61,9 +61,11 @@ const setLanguage = (language) => {
 
   const statText = document.querySelectorAll(".statsText");
 
+  const chDir = document.querySelector(".chDir");
+
   if (language === "ar") {
     document.dir = "rtl";
-
+    chDir.dir = "rtl";
     //change dir of stat text
     for (let index = 0; index < statText.length; index++) {
       statText[index].classList.add("flex-row-reverse");
@@ -87,6 +89,8 @@ const setLanguage = (language) => {
     }
 
     document.dir = "ltr";
+    chDir.dir = "ltr";
+
     navbarLinks.classList.replace("me-auto", "ms-auto");
     document.querySelector("body").classList.replace("ar-font", "en-font");
     document

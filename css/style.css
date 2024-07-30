@@ -130,6 +130,9 @@ a {
 .h-450px {
   height: 450px;
 }
+.sc-12 {
+  transform: scale(1.2);
+}
 /* spacing */
 
 /****|setting box|****/
@@ -284,6 +287,9 @@ select option {
   }
   #home p {
     margin: 0px auto;
+  }
+  .homeDescription {
+    width: 100% !important;
   }
 }
 @media (max-width: 575.98px) {

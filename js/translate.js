@@ -9,10 +9,8 @@ const translations = {
     projectTwo: "Project Two",
     homeH1: "Consultant Engineering Office",
     homelegend: "House of Experience over 15 Years",
-    homeP: `CEO is a leading independent engineering firm specializing in the
-          built environment, encompassing <br />
-          the planning, design, management of various engineering projects, and
-          construction.`,
+    homeP: `CEO
+An engineering office specialized in integrated environmental and engineering fields, where we provide comprehensive services including project design and supervision. We work to provide sustainable and innovative solutions to meet the needs of our clients in various sectors`,
     homeBtnService: "Exploar services",
     homeBtnContact: "Contact Us",
     whoWe: "Who We Are",
@@ -61,8 +59,11 @@ const translations = {
 CEO’s office has a well-established history of successfully executing landscaping projects that not only yield substantial cost savings but also minimize waste and reduce disruptions to the local environment.`,
 
     //soldi waste services
-    service7: "Solid Waste projects field",
-    service7Desc: `Our CEO's office is at the forefront of expertise when it comes to design and planning for Solid Waste Projects. Specializing in a range of crucial waste management solutions, including Waste Transfer Stations, Landfill Design, and Mechanical and Biological Treatment (MBT) plants, we lead the industry in creating sustainable and efficient solutions for managing solid waste. <br/><br/> With a deep commitment to environmental stewardship and innovative engineering, our CEO's office continually pushes the boundaries of what is possible in waste management. Through a combination of cutting-edge technology and a dedication to sustainable practices, we are paving the way towards a cleaner and greener future for waste management, setting the standard for excellence in the industry.`,
+    service7: "Solid Waste Management Field ",
+    service7C:
+      "(intermediate stations - waste treatment and recycling plants - waste landfills)",
+    service7Desc: `Engineering Consulting Office is one of the best engineering offices specialized in designing and planning solid waste projects. We specialize in developing a range of sustainable solutions for solid waste management, including designing and supervising the implementation of intermediate stations - designing and supervising the establishment of waste recycling plants using bio-mechanical technology - designing and supervising solid waste-to-energy projects - designing and supervising the establishment of waste landfills. We lead the industry in innovating sustainable and effective solutions for solid waste management.`,
+    service7Descsecond: `With a deep commitment to environmental conservation and innovative engineering, the engineering consulting firm continues to push the boundaries of what is possible in waste management. By combining cutting-edge technology with a dedication to sustainable practices, we are paving the way for a cleaner, more sustainable future for waste management, and setting a standard for excellence in the industry.`,
     service7_2: "Solid Waste Characterization Studies",
     service7_2Desc:
       "Waste Characterization studies play a vital role in waste management and environmental planning, and there is a growing demand for such services as businesses and governments seek to improve their waste management practices, enhance recycling efforts, and minimize environmental impacts. ",
@@ -152,7 +153,8 @@ Our innovative designs have not only transformed the waste management landscape 
     projectTwo: "المشروع التاني",
     homeH1: "مكتب الاستشارات الهندسية",
     homelegend: "خبرة أكثر من 15 سنة",
-    homeP: `CEO هي شركة هندسية مستقلة رائدة متخصصة في البيئة المبنية، والتي تشمل التخطيط <br /> والتصميم وإدارة المشاريع الهندسية المختلفة والبناء.`,
+    homeP: `CEO  
+مكتب هندسي متخصص في المجالات البيئية والهندسية المتكاملة، حيث نقدم خدمات شاملة تشمل تصميم المشاريع والإشراف على تنفيذها. نحن نعمل على توفير حلول مستدامة ومبتكرة لتلبية احتياجات عملائنا في مختلف القطاعات`,
     homeBtnService: "تعرف على خدماتنا",
     homeBtnContact: "اتصل بنا",
     whoWe: "من نحن",
@@ -181,8 +183,9 @@ Our innovative designs have not only transformed the waste management landscape 
     service3Desc: `شركة رائدة في تقديم خدمات إدارة المشاريع والإنشاءات للبنية التحتية للهندسة المدنية ومشاريع النقل. يدير مهندسونا الاستشاريون جميع أنشطة المشاريع والإنشاءات بما في ذلك التخطيط والتنسيق والتحكم والإشراف. من البداية إلى النهاية. نحن ملتزمون بتلبية احتياجات العملاء وتقديم نتائج عملية وفعالة من حيث التكلفة.`,
     service3Desc2: `إن مديري المشاريع والإنشاءات لدينا هم من المحترفين متعددي المهارات ولديهم خبرة في معظم تخصصات التصميم ومعرفة شاملة بإدارة أنواع مختلفة من العقود. نحن بارعون في جميع مجالات إدارة المشاريع والإنشاءات بما في ذلك التخطيط والبرمجة والتحقيق في الموقع والإشراف وإدارة التصميم وإدارة العقود والمشتريات ومراقبة الجودة وضمانها. لدينا خبرة واسعة في إدارة التفاعلات بين العديد من أصحاب المصلحة المختلفين داخل كل مشروع. يوفر فريقنا نقطة اتصال واحدة لجميع الأطراف.`,
 
-    service4: "تصميم المعالجة الميكانيكية والبيولوجية للنفايات الصلبة",
-    service4Desc: `مكتبنا هو القوة الدافعة وراء التصميم الدقيق وتنفيذ المشاريع الرائدة في مجال إدارة النفايات الصلبة. مع فريق من الخبراء المتفانين والشغف بالابتكار، نحن متخصصون في صياغة حلول مخصصة لمحطات نقل النفايات وتصميم مكبات النفايات ومحطات المعالجة الميكانيكية والبيولوجية (MBT)`,
+    service4:
+      "تصميم مصانع تدوير المخلفات الصلبة بتكنولوجيا المعالجة الميكانيكية والبيولوجية (MBT) ",
+    service4Desc: `مكتبنا هو القوة الدافعة وراء التصميم الدقيق وتنفيذ المشاريع الرائدة في مجال إدارة المخلفات الصلبة. مع فريق من الخبراء المتفانين والشغف بالابتكار، نحن متخصصون في صياغة حلول مخصصة لمحطات المعالجة الميكانيكية والبيولوجية للمخلفات الصلبة والتى تهدف الى تعظيم الاستفادة من المخلفات مع التخلص الامن والحفاظ على البيئة`,
 
     service5: "الطرق السريعة والجسور",
     service5Desc: `مع تزايد الحاجة إلى الطرق السريعة والجسور، يقف مكتبنا على أهبة الاستعداد لمساعدة عملائنا من خلال خبرته الواسعة في الهندسة المدنية والبنيوية والنقل. يتم تصميم خدماتنا بشكل فردي لكل مشروع، مما يساعد عملائنا في تقديم رسومات التصميم وتقديرات التكلفة الدقيقة وتقييم المواد. نحن نتفوق في توجيه المشاريع لتحقيق المعالم الحاسمة مع تجاوز توقعات العملاء للمنتج النهائي. سجلنا الحافل هو شهادة على كفاءتنا وإبداعنا وحل المشكلات الإبداعية في مجال تصميم الطرق السريعة والجسور.`,
@@ -191,19 +194,24 @@ Our innovative designs have not only transformed the waste management landscape 
     service6Desc: `في مجال تصميم المناظر الطبيعية والمجال العام، نؤمن إيمانًا راسخًا بأن هذه المكونات تتطلب مراعاة تصميمية دقيقة. نتعامل مع هذه الجوانب بمنظور شامل، ونسعى جاهدين للتأثير على تطوير المساحات التي تنسجم بسلاسة مع محيطها الحضري. يأخذ نهجنا في الاعتبار جوانب مختلفة، بما في ذلك الجماليات البصرية، والأهمية الثقافية، والحفاظ على التراث، والتطلعات الدائمة للمجتمعات التي يخدمونها. يتمتع مكتبنا بتاريخ راسخ في تنفيذ مشاريع تصميم المناظر الطبيعية بنجاح والتي لا تحقق وفورات كبيرة في التكلفة فحسب، بل تقلل أيضًا من النفايات وتقلل من الاضطرابات في البيئة المحلية.`,
 
     //soldi waste services
-    service7: "مجال مشاريع النفايات الصلبة",
-    service7Desc: `يعد مكتبنا من أفضل المكاتب المتخصصة في تصميم وتخطيط مشاريع النفايات الصلبة. ونحن متخصصون في مجموعة من حلول إدارة النفايات الحاسمة، بما في ذلك محطات نقل النفايات وتصميم مكبات النفايات ومصانع المعالجة الميكانيكية والبيولوجية، ونتصدر الصناعة في ابتكار حلول مستدامة وفعالة لإدارة النفايات الصلبة. <br/><br/> وبفضل التزامنا العميق بالحفاظ على البيئة والهندسة المبتكرة، يواصل مكتب الرئيس التنفيذي لدينا دفع حدود ما هو ممكن في إدارة النفايات. ومن خلال الجمع بين التكنولوجيا المتطورة والتفاني في الممارسات المستدامة، فإننا نمهد الطريق نحو مستقبل أنظف وأكثر خضرة لإدارة النفايات، ونضع معيارًا للتميز في الصناعة.`,
-    service7_2: "دراسات توصيف النفايات الصلبة",
+    service7: `مجال ادارة منظومة المخلفات الصلبة`,
+    service7C:
+      "(المحطات الوسيطة - مدافن المخلفات - مصانع معالجة وتدوير المخلفات )",
+    service7Desc: `
+مكتب الاستشارات الهندسة أحد أفضل المكاتب الهندسية المتخصصة في تصميم وتخطيط مشاريع المخلفات الصلبة. ونحن متخصصون في وضع مجموعة من الحلول المستدامة لإدارة المخلفات الصلبة، بما في ذلك التصميم والاشراف على تنفيذ المحطات الوسيطة - التصميم والاشراف على انشاء مصانع تدوير المخلفات بتكنولوجيا الميكانيكية البيولوجية - تصميم والاشراف على مشروعات تحويل المخلفات الصلبة الى طاقة - التصميم والاشراف على انشاء مدافن المخلفات ، ونتصدر الصناعة في ابتكار حلول مستدامة وفعالة لإدارة المخلفات الصلبة.`,
+    service7Descsecond: `وبفضل التزامنا العميق بالحفاظ على البيئة والهندسة المبتكرة، يواصل مكتب الاستشارات الهندسية دفع حدود ما هو ممكن في إدارة المخلفات. ومن خلال الجمع بين التكنولوجيا المتطورة والتفاني في الممارسات المستدامة، فإننا نمهد الطريق نحو مستقبل أنظف وأكثر استدامة لإدارة المخلفات، ونضع معيارًا للتميز في الصناعة.
+`,
+    service7_2: "دراسات تحليل المخلفات الصلبة البلدية",
     service7_2Desc:
-      "تلعب دراسات تصنيف النفايات دورًا حيويًا في إدارة النفايات والتخطيط البيئي، وهناك طلب متزايد على هذه الخدمات حيث تسعى الشركات والحكومات إلى تحسين ممارسات إدارة النفايات، وتعزيز جهود إعادة التدوير، والحد من التأثيرات البيئية.",
-    service7_3: "توصيف نفايات المجاري المائية",
+      "تلعب دراسات تحليل المخلفات الصلبة البلدية  دورًا حيويًا في إدارة المخلفات والتخطيط البيئي، وهناك طلب متزايد على هذه الخدمات حيث تسعى الشركات والحكومات إلى تحسين ممارسات إدارة المخلفات، وتعزيز جهود إعادة التدوير، والحد من التأثيرات البيئية.",
+    service7_3: "تحليل وتوصيف مخلفات القنوات والمجاري المائية",
     service7_3Desc:
-      "تلعب المجاري المائية دورًا حاسمًا في النسيج الاجتماعي والاقتصادي في مصر، حيث تدعم الزراعة والنقل وسبل العيش بشكل عام. ومع ذلك، برزت قضية تلوث المجاري المائية، وخاصة بسبب النفايات الصلبة البلدية، كمشكلة بيئية كبيرة ذات عواقب بعيدة المدى. وقد ساهم التفاعل بين التوسع الحضري المتزايد وتوليد النفايات وممارسات التخلص غير السليمة من النفايات في تدهور المسطحات المائية في مصر. وقد دفع هذا إلى الحاجة إلى فهم شامل للتحديات التي يفرضها تلوث النفايات الصلبة البلدية في المجاري المائية في مصر والحلول المحتملة لمعالجة هذه القضية المعقدة.",
-    service7_4: "محطة نقل النفايات الصلبة",
-    service7_4Desc: `لقد حقق مكتبنا سجلاً حافلاً في مجال إدارة النفايات الصلبة، حيث صمم العديد من محطات نقل النفايات ليس فقط في مصر ولكن أيضًا في مختلف البلدان حول العالم. تُظهر محفظتنا الواسعة ثروة من الخبرة والمهارة في ابتكار حلول فعالة ومستدامة لنقل النفايات وإدارتها. لم تعمل تصميماتنا المبتكرة على تحويل مشهد إدارة النفايات في مصر فحسب، بل تركت أيضًا تأثيرًا دائمًا على المجتمعات والمناطق في جميع أنحاء العالم.`,
-    service7_5: "مكبات صحية للنفايات البلدية",
+      "تلعب المجاري المائية دورًا حاسمًا في النسيج الاجتماعي والاقتصادي في مصر، حيث تدعم الزراعة والنقل وسبل العيش بشكل عام. ومع ذلك، برزت قضية تلوث المجاري المائية، وخاصة بسبب المخلفات الصلبة البلدية، كمشكلة بيئية كبيرة ذات عواقب بعيدة المدى. وقد ساهم التفاعل بين التوسع الحضري المتزايد وتوليد المخلفات وممارسات التخلص غير السليمة من المخلفات في تدهور المسطحات المائية في مصر. وقد دفع هذا إلى الحاجة إلى فهم شامل للتحديات التي يفرضها تلوث المخلفات الصلبة البلدية في المجاري المائية في مصر والحلول المحتملة لمعالجة هذه القضية المعقدة.",
+    service7_4: "المحطات الوسيطة  لنقل المخلفات الصلبة البلدية",
+    service7_4Desc: `لقد حقق مكتبنا سجلاً حافلاً في مجال إدارة المخلفات الصلبة، حيث صمم العديد من المحطات الوسيطة لنقل المخلفات ليس فقط في مصر ولكن أيضًا في مختلف البلدان حول العالم. تُظهر محفظتنا الواسعة ثروة من الخبرة والمهارة في ابتكار حلول فعالة ومستدامة لنقل المخلفات وإدارتها. لم تعمل تصميماتنا المبتكرة على تحويل مشهد إدارة المخلفات في مصر فحسب، بل تركت أيضًا تأثيرًا دائمًا على المجتمعات والمناطق في جميع أنحاء العالم.`,
+    service7_5: "المدافن والمكبات الصحية للمخلفات الصلبة البلدية",
     service7_5Desc:
-      "يتمتع مكتبنا بخبرة واسعة في تصميم مكبات النفايات الصحية الحديثة لإدارة النفايات البلدية. وبفضل فريق متخصص من الخبراء، نجحنا في تطوير وتنفيذ مشاريع مكبات النفايات التي تلتزم بأعلى المعايير البيئية والتنظيمية. وقد مكنتنا معرفتنا الواسعة وأساليبنا المبتكرة من إنشاء تصميمات مكبات نفايات لا توفر التخلص الآمن والفعال من النفايات البلدية فحسب، بل وتعطي الأولوية أيضًا للاستدامة البيئية. من اختيار الموقع والهندسة إلى أنظمة احتواء النفايات وإدارة الغاز، لا يدخر مكتب الرئيس التنفيذي جهدًا لضمان أن تصميمات مكبات النفايات لدينا ليست سليمة من الناحية الفنية فحسب، بل إنها أيضًا مسؤولة بيئيًا.",
+      "يتمتع مكتبنا بخبرة واسعة في تصميم مدافن المخلفات الصحية الحديثة لإدارة المخلفات البلدية. وبفضل فريق متخصص من الخبراء، نجحنا في تطوير وتنفيذ مشاريع مدافن المخلفات التي تلتزم بأعلى المعايير البيئية والتنظيمية. وقد مكنتنا معرفتنا الواسعة وأساليبنا المبتكرة من إنشاء تصميمات مدافن مخلفات لا توفر التخلص الآمن والفعال من المخلفات البلدية فحسب، بل وتعطي الأولوية أيضًا للاستدامة البيئية. من اختيار الموقع والتصميم إلى أنظمة احتواء المخلفات وإدارة الغاز، لا يدخر مكتب الاستشارات الهندسية جهدًا لضمان أن تصميمات مدافن المخلفات  لدينا ليست سليمة من الناحية الفنية فحسب، بل إنها أيضًا مسؤولة بيئيًا.",
 
     service11: "المرافق والبنية التحتية",
     service11Desc:
